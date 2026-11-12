@@ -1,0 +1,11 @@
+{
+  "source_url": "https://m.energytrend.cn/solar-price.html/",
+  "fetched_at": "2026-11-12 12:12:23",
+  "http_status": 200,
+  "sha256_raw": "bc2eaa5e5212f33b483972728c10bababa683e7d053d6a6249017e41ba904279",
+  "raw_bytes": 15242,
+  "text_chars": 2143,
+  "truncated": false,
+  "domain": "solar",
+  "slug": "price-energytrend-20261111"
+}

@@ -1,6 +1,7 @@
 # 采集原始数据（不入仓）
-raw/
-*.json
+raw/*
+!raw/snapshots/
+!raw/snapshots/**
 
 # mdbook 构建产物
 book/
