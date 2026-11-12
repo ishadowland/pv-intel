@@ -28,6 +28,12 @@ echo "=== 待提交文件 ==="
 git diff --cached --name-status
 echo
 
+# 发布前自检：内部链接必须全通（mdbook 断链不报错，只会渲染成死链）
+if ! python3 scripts/check_links.py; then
+  echo "❌ 内部链接校验未通过，已中止发布"
+  exit 1
+fi
+
 git commit -m "$MSG"
 
 # 禁止 force push；非快进则 rebase
