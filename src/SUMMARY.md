@@ -24,7 +24,7 @@
   - [储能收益测算模型升级为四段式（产品特性 · P1）](deliverables/feature-storageRevenueModel-20261112.md)
   - [交易合约数据结构扩展（需求变更 · P1）](deliverables/requirement-tradeContractSchema-20261112.md)
   - [对外站点暴露面专项自查（专项整改 · P0）](deliverables/remediation-exposureHygiene-20261112.md)
-  - [储能可充电约束（需求变更 · P1）](deliverables/requirement-storageChargeAvailabilityConstraint-20261112.md)
+  - [攻击手法→防线覆盖度对照（专项整改 · P1 · 方向级）](deliverables/remediation-defenseTacticCoverage-20261112.md)
 
 ---
 
