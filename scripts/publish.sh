@@ -16,6 +16,9 @@ fi
 git config --local user.name "ishadowland" 2>/dev/null || true
 git config --local user.email "ishadowland@gmail.com" 2>/dev/null || true
 git config --local credential.helper '!gh auth git-credential' 2>/dev/null || true
+# 本机到 github.com 的 gnutls 握手不稳（HK 段 IP），锁 TLS1.2 + HTTP/1.1 可稳定推送
+git config --local http.sslVersion tlsv1.2 2>/dev/null || true
+git config --local http.version HTTP/1.1 2>/dev/null || true
 
 git add -A
 
