@@ -55,9 +55,18 @@ def fetch(url, timeout=30):
 
 def _read_response(r):
     raw = r.read()
+    # 部分站点无视 Accept-Encoding 直接返回 gzip 压缩体，不解压会存下乱码快照
+    gzip_decoded = False
+    if raw[:2] == b"\x1f\x8b":
+        import gzip
+        try:
+            raw = gzip.decompress(raw)
+            gzip_decoded = True
+        except OSError:
+            pass
     # PDF：按二进制原样返回（正文由 pdf_text() 提取，SHA256 仍对原始字节计算）
     if raw[:4] == b"%PDF" or "application/pdf" in (r.headers.get("Content-Type") or "").lower():
-        return r.status, "", raw
+        return r.status, "", raw, gzip_decoded
     enc = "utf-8"
     try:
         ctype = r.headers.get("Content-Type", "")
@@ -73,7 +82,7 @@ def _read_response(r):
         text = raw.decode(enc, errors="replace")
     except LookupError:
         text = raw.decode("utf-8", errors="replace")
-    return r.status, text, raw
+    return r.status, text, raw, gzip_decoded
 
 
 def pdf_text(raw):
@@ -118,7 +127,7 @@ def main():
     os.makedirs(d, exist_ok=True)
 
     try:
-        status, text, raw = fetch(args.url)
+        status, text, raw, gzip_decoded = fetch(args.url)
     except urllib.error.HTTPError as e:
         print(f"❌ HTTP {e.code}: {args.url}")
         raise SystemExit(1)
@@ -159,6 +168,7 @@ def main():
         "truncated": truncated,
         "domain": args.domain,
         "slug": args.slug,
+        "gzip_decoded": gzip_decoded,
     }
     with open(meta_path, "w", encoding="utf-8") as f:
         json.dump(meta, f, ensure_ascii=False, indent=2)
