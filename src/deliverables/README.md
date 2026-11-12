@@ -9,7 +9,9 @@
 
 | 文档 | 一句话 |
 |---|---|
-| _(待评审)_ | — |
+| [feature-storageRevenueModel-20261112](feature-storageRevenueModel-20261112.md) | **产品特性 · P1** —— 储能收益测算引擎拆为四段（峰谷套利/现货价差/辅助服务/容量电价）。依据：政策把储能收益来源从单一峰谷扩展到四类，我方单一段落模型在 2026 全面入市后**系统性低估收益**。含敏感度分析、参数来源标注、兼容旧口径。 |
+| [requirement-tradeContractSchema-20261112](requirement-tradeContractSchema-20261112.md) | **需求变更 · P1** —— 交易合约结构扩展：`marketScope`(跨省跨区) / `contractTermType`(多年期) / 品种明细子表(电能量·现货·辅助服务·绿证) / `participantType` / `aggregationMode`。依据：跨省直交易与多年期 PPA **在现有模型下无法落账**，属硬约束。含存量数据回填与"双写先行"分两期上线策略。 |
+| [remediation-exposureHygiene-20261112](remediation-exposureHygiene-20261112.md) | **专项整改 · P0** —— 对外站点暴露面自查：全站 `.svn/` 残留与备份文件（`.zip`/`.rar`/`.sql`/`.tar.gz`）、PTM 后端异常处理（`m_response` 疑似 SQL 堆栈外泄）、发布流程加自动阻断。**WAF 全程 Deny 不等于源站干净**，必须落到源站确认。 |
 
 ---
 
