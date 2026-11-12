@@ -1,0 +1,47 @@
+name: 评审意见
+description: 本库的一条评审意见 / 一个待决问题（一条 issue = 一条意见）
+title: "[评审] "
+labels: ["评审问题"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **一条 issue = 一条评审意见。** 意见收齐后由维护者合并回写文档，结论落定后 close。
+
+        格式：背景 → 问题（只问一个）→ 选项 → 影响面 → 关联文档
+
+  - type: input
+    id: question
+    attributes:
+      label: 问题（只问一个）
+      description: 一句话，可判定的问句
+    validations:
+      required: true
+  - type: textarea
+    id: background
+    attributes:
+      label: 背景
+      description: 为什么要问这件事 —— 事实与出处，链到具体文档/段落
+    validations:
+      required: true
+  - type: textarea
+    id: options
+    attributes:
+      label: 选项
+      description: 列出可选处理方式，标出你倾向哪个及理由
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: 影响面
+      description: 结论会改动哪些文件 / 哪条产物
+    validations:
+      required: true
+  - type: textarea
+    id: refs
+    attributes:
+      label: 关联文档
+      description: 相关文档与段落的相对路径
+    validations:
+      required: false
