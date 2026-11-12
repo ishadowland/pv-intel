@@ -1,0 +1,15 @@
+# 采集原始数据（不入仓）
+raw/
+*.json
+
+# mdbook 构建产物
+book/
+
+# Python
+__pycache__/
+*.pyc
+
+# 编辑器
+.DS_Store
+.idea/
+.vscode/

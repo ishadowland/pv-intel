@@ -1,0 +1,17 @@
+[book]
+title = "PV-Intel 光伏情报库"
+description = "光伏产业 · 政策发文 · 网络安全情报 —— 定期简报 → 归纳总结 → 评审输出可落地的产品特性 / 需求变更 / 专项整改规划"
+authors = ["ishadowland"]
+language = "zh-CN"
+src = "src"
+
+[build]
+build-dir = "book"
+create-missing = false
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "navy"
+no-section-label = false
+copy-fonts = true
+git-repository-url = "https://github.com/ishadowland/pv-intel"
