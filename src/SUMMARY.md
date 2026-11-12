@@ -8,6 +8,7 @@
 
 - [☀️ 光伏产业](solar-industry/README.md) — 产业链供需 / 价格曲线 / 技术路线 / 装机与出口数据
   - [2026-11 价格快照](solar-industry/componentPriceSnapshot-2026-11.md)
+  - [新型电力系统的安全风险（2026-10-29 院刊综述）](solar-industry/newTypePowerSystemSecurity-2026.md)
 - [📜 政策发文](policy/README.md) — 部委与地方政策原文 / 解读 / 对产品的约束条款
   - [促进新能源消纳和调控的指导意见（2026-11-10）](policy/ndrcNewEnergyConsumptionGuidance-2026.md)
 - [🛡️ 网络安全情报](security-intel/README.md) — CVE / WAF 攻击面 / 合规基线 / 内部安全动态
@@ -23,6 +24,7 @@
   - [储能收益测算模型升级为四段式（产品特性 · P1）](deliverables/feature-storageRevenueModel-20261112.md)
   - [交易合约数据结构扩展（需求变更 · P1）](deliverables/requirement-tradeContractSchema-20261112.md)
   - [对外站点暴露面专项自查（专项整改 · P0）](deliverables/remediation-exposureHygiene-20261112.md)
+  - [储能可充电约束（需求变更 · P1）](deliverables/requirement-storageChargeAvailabilityConstraint-20261112.md)
 
 ---
 

@@ -54,23 +54,44 @@ def fetch(url, timeout=30):
 
 
 def _read_response(r):
-        raw = r.read()
-        enc = "utf-8"
-        try:
-            ctype = r.headers.get("Content-Type", "")
-            if "charset=" in ctype:
-                enc = ctype.split("charset=")[-1].split(";")[0].strip() or "utf-8"
-            else:
-                m = re.search(rb'charset=["\']?([\w-]+)', raw[:2000], re.I)
-                if m:
-                    enc = m.group(1).decode("ascii", "ignore")
-        except Exception:
-            pass
-        try:
-            text = raw.decode(enc, errors="replace")
-        except LookupError:
-            text = raw.decode("utf-8", errors="replace")
-        return r.status, text, raw
+    raw = r.read()
+    # PDF：按二进制原样返回（正文由 pdf_text() 提取，SHA256 仍对原始字节计算）
+    if raw[:4] == b"%PDF" or "application/pdf" in (r.headers.get("Content-Type") or "").lower():
+        return r.status, "", raw
+    enc = "utf-8"
+    try:
+        ctype = r.headers.get("Content-Type", "")
+        if "charset=" in ctype:
+            enc = ctype.split("charset=")[-1].split(";")[0].strip() or "utf-8"
+        else:
+            m = re.search(rb'charset=[\'"]?([\w-]+)', raw[:2000], re.I)
+            if m:
+                enc = m.group(1).decode("ascii", "ignore")
+    except Exception:
+        pass
+    try:
+        text = raw.decode(enc, errors="replace")
+    except LookupError:
+        text = raw.decode("utf-8", errors="replace")
+    return r.status, text, raw
+
+
+def pdf_text(raw):
+    """从 PDF 原始字节提取纯文本；pypdf 不可用时返回空串（不静默产生空快照）。"""
+    try:
+        import io
+        from pypdf import PdfReader
+    except ImportError:
+        return ""
+    try:
+        reader = PdfReader(io.BytesIO(raw))
+        pages = []
+        for i, page in enumerate(reader.pages, 1):
+            pages.append(f"\n\n===== [page {i}] =====\n\n" + (page.extract_text() or ""))
+        return re.sub(r"\n{3,}", "\n\n", "".join(pages)).strip()
+    except Exception as e:  # 提取失败要看得见，不能默默产出空快照
+        print(f"⚠️  PDF 文本提取失败: {type(e).__name__}: {e}")
+        return ""
 
 
 def strip_html(text):
@@ -105,7 +126,10 @@ def main():
         print(f"❌ 抓取失败 {type(e).__name__}: {e}")
         raise SystemExit(1)
 
-    body = strip_html(text)
+    body = pdf_text(raw) if raw[:4] == b"%PDF" else strip_html(text)
+    if raw[:4] == b"%PDF" and not body:
+        print("❌ PDF 文本提取为空（pypdf 缺失或解析失败），拒绝生成空快照")
+        raise SystemExit(1)
     truncated = len(body) > args.max_chars
     if truncated:
         body = body[:args.max_chars] + "\n\n> ⚠️ 快照已截断（原文超长）"

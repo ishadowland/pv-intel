@@ -12,6 +12,7 @@
 | [feature-storageRevenueModel-20261112](feature-storageRevenueModel-20261112.md) | **产品特性 · P1** —— 储能收益测算引擎拆为四段（峰谷套利/现货价差/辅助服务/容量电价）。依据：政策把储能收益来源从单一峰谷扩展到四类，我方单一段落模型在 2026 全面入市后**系统性低估收益**。含敏感度分析、参数来源标注、兼容旧口径。 |
 | [requirement-tradeContractSchema-20261112](requirement-tradeContractSchema-20261112.md) | **需求变更 · P1** —— 交易合约结构扩展：`marketScope`(跨省跨区) / `contractTermType`(多年期) / 品种明细子表(电能量·现货·辅助服务·绿证) / `participantType` / `aggregationMode`。依据：跨省直交易与多年期 PPA **在现有模型下无法落账**，属硬约束。含存量数据回填与"双写先行"分两期上线策略。 |
 | [remediation-exposureHygiene-20261112](remediation-exposureHygiene-20261112.md) | **专项整改 · P0** —— 对外站点暴露面自查：全站 `.svn/` 残留与备份文件（`.zip`/`.rar`/`.sql`/`.tar.gz`）、PTM 后端异常处理（`m_response` 疑似 SQL 堆栈外泄）、发布流程加自动阻断。**WAF 全程 Deny 不等于源站干净**，必须落到源站确认。 |
+| [requirement-storageChargeAvailabilityConstraint-20261112](requirement-storageChargeAvailabilityConstraint-20261112.md) | **需求变更 · P1** —— 储能收益测算的峰谷套利段增加"**可充电富裕电量**"约束：`chargeAvailabilityFactor` + `availableWindowHours` 两个新参数 + **充裕/紧平衡/缺电三档情景**输出区间（不再单值）。依据：院刊综述指出"电力电量缺口越大，可供储能充电的富裕电量时刻越少"——我方四段式模型按名义容量×时长×价差算，**隐含"想充就能充"**，在晚峰价差最大且系统最缺电的场景会**系统性高估**套利收益。含回归验收（参数为 1 时与现有模型完全一致）、"不做什么"边界（不做调度仿真/不预测缺电/不改其余三段/不引新数据源）与档位阈值自建要求（不引用文献数字）。 |
 
 ---
 
