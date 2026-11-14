@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.trout.software/blog/siemens-node2shell-php2shell-brotli-php-ot-advisories-icsa-26-316",
+  "fetched_at": "2026-11-15 07:11:50",
+  "http_status": 200,
+  "sha256_raw": "43ff521efd8cec8ec917527bd0c33e5bb7462cc338ab7fcae85e4873a758f353",
+  "raw_bytes": 182708,
+  "text_chars": 16791,
+  "truncated": false,
+  "domain": "security",
+  "slug": "siemens-node2shell-php2shell-trout-analysis",
+  "gzip_decoded": false
+}

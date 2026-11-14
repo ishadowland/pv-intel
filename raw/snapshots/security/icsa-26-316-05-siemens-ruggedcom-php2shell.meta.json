@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05",
+  "fetched_at": "2026-11-15 07:11:49",
+  "http_status": 200,
+  "sha256_raw": "b1d8657ce71209ce646eab8c70f98d25cb779e4d1cd276b9456ed92b7980443b",
+  "raw_bytes": 67701,
+  "text_chars": 7877,
+  "truncated": false,
+  "domain": "security",
+  "slug": "icsa-26-316-05-siemens-ruggedcom-php2shell",
+  "gzip_decoded": false
+}

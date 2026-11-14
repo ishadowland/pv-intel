@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
+  "fetched_at": "2026-11-15 07:11:48",
+  "http_status": 200,
+  "sha256_raw": "dd22f6e6f11c9eeda1c0ee6a9b2ade386a0a10664c879965112f9112cc923456",
+  "raw_bytes": 77287,
+  "text_chars": 14979,
+  "truncated": false,
+  "domain": "security",
+  "slug": "icsa-26-316-01-siemens-building-automation",
+  "gzip_decoded": false
+}

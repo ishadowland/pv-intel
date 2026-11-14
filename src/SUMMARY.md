@@ -9,15 +9,21 @@
 - [☀️ 光伏产业](solar-industry/README.md) — 产业链供需 / 价格曲线 / 技术路线 / 装机与出口数据
   - [2026-11 价格快照](solar-industry/componentPriceSnapshot-2026-11.md)
   - [主链价格与库存 11-12 快照](solar-industry/chainPriceInventory-2026-11-12.md)
+  - [主链价格与库存 11-13 周度快照（硅料跌破生产成本）](solar-industry/chainPriceInventory-2026-11-14.md)
+  - [产能出清进度与组件中标价（2026-11）](solar-industry/polyCapacityExitBiddingPrice-2026-11.md)
   - [光伏玻璃成本端上行（2026-11）](solar-industry/solarGlassCostUp-2026-11.md)
   - [新型电力系统的安全风险（2026-10-29 院刊综述）](solar-industry/newTypePowerSystemSecurity-2026.md)
 - [📜 政策发文](policy/README.md) — 部委与地方政策原文 / 解读 / 对产品的约束条款
   - [促进新能源消纳和调控的指导意见（2026-11-10）](policy/ndrcNewEnergyConsumptionGuidance-2026.md)
+  - [“十五五”新型储能实施方案（发改能源〔2026〕1565号）](policy/storagePlan15thFiveth-2026.md)
+  - [能源局对人大 7258 号建议的答复（分布式光伏自主投资决策）](policy/neaReplyPvManagement7258-2026.md)
   - [可再生能源发展"十五五"规划 · 可靠替代目标](policy/renewablePlan15thFiveth-2026.md)
   - [广西 2027 年增量新能源机制电价竞价结果](policy/guangxiMechanismAuction2027-2026.md)
   - [光伏制造行业规范条件（2026 年本）征求意见稿](policy/pvManufacturingStandard2026-2026.md)
 - [🛡️ 网络安全情报](security-intel/README.md) — CVE / WAF 攻击面 / 合规基线 / 内部安全动态
   - [EPICS 工控漏洞 + 光伏 DER 暴露面（2026-11）](security-intel/epicsDerExposure-2026-11.md)
+  - [欧洲光伏 DER 暴露面：BSI-CS 154 + 8547 个暴露系统（2026-11）](security-intel/derExposureGermanyEurope-2026-11.md)
+  - [CISA ICSA-26-316-01~05 Siemens Node2Shell/PHP2Shell（2026-11）](security-intel/icsa26316SiemensNode2Shell-2026-11.md)
   - [CISA ICSA-26-300-02 三菱/ICONICS 平台四漏洞（2026-11）](security-intel/icsa2630002GenesisIconics-2026-11.md)
 
 ---
@@ -25,6 +31,7 @@
 # 产出域
 
 - [📋 定期简报](briefings/README.md) — 日报 / 周报 / 月报，按周期归档
+  - [2026-11-15 日报（第 3 期）](briefings/2026-11-15-daily.md)
   - [2026-11-13 日报（第 2 期）](briefings/2026-11-13-daily.md)
   - [2026-11-12 日报（建库首期）](briefings/2026-11-12-daily.md)
 - [🎯 评审输出](deliverables/README.md) — 产品特性 / 需求变更 / 专项整改工作规划

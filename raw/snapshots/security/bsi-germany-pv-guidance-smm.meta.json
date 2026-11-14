@@ -1,0 +1,12 @@
+{
+  "source_url": "https://news.metal.com/en/newscontent/104166764-smm-pv-flash-germany-recommends-stronger-cybersecurity-for-solar-pv-plant-control-systems",
+  "fetched_at": "2026-11-15 07:12:15",
+  "http_status": 200,
+  "sha256_raw": "ebdf2fd932af920ab18eb49e18adf2c3bd629c6291220c69c007179bd033a517",
+  "raw_bytes": 245465,
+  "text_chars": 5029,
+  "truncated": false,
+  "domain": "security",
+  "slug": "bsi-germany-pv-guidance-smm",
+  "gzip_decoded": true
+}

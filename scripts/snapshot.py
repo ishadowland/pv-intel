@@ -85,8 +85,8 @@ def _read_response(r):
     return r.status, text, raw, gzip_decoded
 
 
-def pdf_text(raw):
-    """从 PDF 原始字节提取纯文本；pypdf 不可用时返回空串（不静默产生空快照）。"""
+def _pdf_text_pypdf(raw):
+    """pypdf 提取；不可用/失败时返回空串（由调用方降级）。"""
     try:
         import io
         from pypdf import PdfReader
@@ -99,8 +99,43 @@ def pdf_text(raw):
             pages.append(f"\n\n===== [page {i}] =====\n\n" + (page.extract_text() or ""))
         return re.sub(r"\n{3,}", "\n\n", "".join(pages)).strip()
     except Exception as e:  # 提取失败要看得见，不能默默产出空快照
-        print(f"⚠️  PDF 文本提取失败: {type(e).__name__}: {e}")
+        print(f"⚠️  PDF 文本提取失败(pypdf): {type(e).__name__}: {e}")
         return ""
+
+
+def _pdf_text_poppler(raw):
+    """降级方案：用系统 pdftotext 提取（pypdf 缺失时的备份路径）。"""
+    import shutil
+    import subprocess
+    import tempfile
+    if not shutil.which("pdftotext"):
+        return ""
+    try:
+        with tempfile.NamedTemporaryFile(suffix=".pdf", delete=False) as tf:
+            tf.write(raw)
+            tmp = tf.name
+        try:
+            out = subprocess.run(
+                ["pdftotext", "-layout", "-enc", "UTF-8", tmp, "-"],
+                capture_output=True, timeout=120,
+            ).stdout.decode("utf-8", errors="replace")
+        finally:
+            os.unlink(tmp)
+        return re.sub(r"\n{3,}", "\n\n", out).strip()
+    except Exception as e:
+        print(f"⚠️  PDF 文本提取失败(pdftotext): {type(e).__name__}: {e}")
+        return ""
+
+
+def pdf_text(raw):
+    """从 PDF 原始字节提取纯文本；pypdf 优先，缺失时降级 pdftotext，都不行返回空串。"""
+    body = _pdf_text_pypdf(raw)
+    if body:
+        return body
+    body = _pdf_text_poppler(raw)
+    if body:
+        print("ℹ️  pypdf 不可用，已降级使用 pdftotext 提取 PDF 正文")
+    return body
 
 
 def strip_html(text):
