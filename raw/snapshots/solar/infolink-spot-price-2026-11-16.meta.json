@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.infolink-group.com/spot-price/",
+  "fetched_at": "2026-11-16 07:11:35",
+  "http_status": 200,
+  "sha256_raw": "248f5f11ed400e4bbdac3db5dd6e23452b353d4dcd6f9bd7d3e87c94126ae4b6",
+  "raw_bytes": 150860,
+  "text_chars": 9979,
+  "truncated": false,
+  "domain": "solar",
+  "slug": "infolink-spot-price-2026-11-16",
+  "gzip_decoded": false
+}

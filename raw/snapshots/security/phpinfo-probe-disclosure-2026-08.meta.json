@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.renrendaima.com/article/9678.html",
+  "fetched_at": "2026-11-16 07:11:15",
+  "http_status": 200,
+  "sha256_raw": "dd0bf0ef2fa0831478e8f885d8a3221d1a8b6c9e32bd9e230f940713664f053f",
+  "raw_bytes": 63152,
+  "text_chars": 3071,
+  "truncated": false,
+  "domain": "security",
+  "slug": "phpinfo-probe-disclosure-2026-08",
+  "gzip_decoded": false
+}

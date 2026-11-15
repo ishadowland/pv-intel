@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.energytrend.cn/solar-price.html/",
+  "fetched_at": "2026-11-16 07:11:04",
+  "http_status": 200,
+  "sha256_raw": "d77e5d96c3ec228941812321e3b3c0e7b593d5f79ee5faca90f03427f436f510",
+  "raw_bytes": 49795,
+  "text_chars": 2720,
+  "truncated": false,
+  "domain": "solar",
+  "slug": "trendforce-pv-price-2026-11-11",
+  "gzip_decoded": false
+}

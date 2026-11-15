@@ -1,0 +1,12 @@
+{
+  "source_url": "https://news.smm.cn/",
+  "fetched_at": "2026-11-16 07:11:36",
+  "http_status": 200,
+  "sha256_raw": "06e5be10a36a65798b95a7859e874e24bc9a1f99e1dbf186bcec22d130f2f071",
+  "raw_bytes": 345132,
+  "text_chars": 3207,
+  "truncated": false,
+  "domain": "solar",
+  "slug": "smm-pv-news-2026-11-16",
+  "gzip_decoded": true
+}
