@@ -11,6 +11,8 @@
   - [主链价格与库存 11-12 快照](solar-industry/chainPriceInventory-2026-11-12.md)
   - [主链价格与库存 11-13 周度快照（硅料跌破生产成本）](solar-industry/chainPriceInventory-2026-11-14.md)
   - [组件中标价格与 EPC 中标成本（11-09~11-13 周）](solar-industry/componentEpcBidPrice-2026-11-15.md)
+  - [主链价格与库存 11-16 周度快照（亏损扩大 · 库存仍累）](solar-industry/chainPriceInventory-2026-11-16.md)
+  - [光伏玻璃全行业现金亏损与供给出清（2026-11-17）](solar-industry/solarGlassLossesSupplyExit2026-2026.md)
   - [产能出清进度与组件中标价（2026-11）](solar-industry/polyCapacityExitBiddingPrice-2026-11.md)
   - [光伏玻璃成本端上行（2026-11）](solar-industry/solarGlassCostUp-2026-11.md)
   - [新型电力系统的安全风险（2026-10-29 院刊综述）](solar-industry/newTypePowerSystemSecurity-2026.md)
@@ -22,6 +24,7 @@
   - [可再生能源发展"十五五"规划 · 可靠替代目标](policy/renewablePlan15thFiveth-2026.md)
   - [广西 2027 年增量新能源机制电价竞价结果](policy/guangxiMechanismAuction2027-2026.md)
   - [光伏制造行业规范条件（2026 年本）征求意见稿](policy/pvManufacturingStandard2026-2026.md)
+  - [山西 2027 年增量新能源机制电价竞价（晋发改商品发〔2026〕243 号）](policy/shanxiMechanismAuction2027-2026.md)
 - [🛡️ 网络安全情报](security-intel/README.md) — CVE / WAF 攻击面 / 合规基线 / 内部安全动态
   - [EPICS 工控漏洞 + 光伏 DER 暴露面（2026-11）](security-intel/epicsDerExposure-2026-11.md)
   - [凭据收割扫描器路径字典命中我方站点（2026-11-15）](security-intel/credentialHarvestProbePaths-2026-11.md)
@@ -29,12 +32,15 @@
   - [欧洲光伏 DER 暴露面：BSI-CS 154 + 8547 个暴露系统（2026-11）](security-intel/derExposureGermanyEurope-2026-11.md)
   - [CISA ICSA-26-316-01~05 Siemens Node2Shell/PHP2Shell（2026-11）](security-intel/icsa26316SiemensNode2Shell-2026-11.md)
   - [CISA ICSA-26-300-02 三菱/ICONICS 平台四漏洞（2026-11）](security-intel/icsa2630002GenesisIconics-2026-11.md)
+  - [PHP 反序列化探测命中我方主站且未被拦截（2026-11-16）](security-intel/phpDeserializationProbe-2026-11.md)
 
 ---
 
 # 产出域
 
 - [📋 定期简报](briefings/README.md) — 日报 / 周报 / 月报，按周期归档
+  - [2026-11-17 日报（第 5 期）](briefings/2026-11-17-daily.md)
+  - [2026-11-16 日报（第 4 期）](briefings/2026-11-16-daily.md)
   - [2026-11-15 日报（第 3 期）](briefings/2026-11-15-daily.md)
   - [2026-11-13 日报（第 2 期）](briefings/2026-11-13-daily.md)
   - [2026-11-12 日报（建库首期）](briefings/2026-11-12-daily.md)

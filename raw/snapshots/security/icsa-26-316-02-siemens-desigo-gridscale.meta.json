@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
+  "fetched_at": "2026-11-17 07:11:04",
+  "http_status": 200,
+  "sha256_raw": "65bfd6156df8a0100307b5cc42557790dcdcbb122254c20570c16abfaee6ba34",
+  "raw_bytes": 66915,
+  "text_chars": 8208,
+  "truncated": false,
+  "domain": "security",
+  "slug": "icsa-26-316-02-siemens-desigo-gridscale",
+  "gzip_decoded": false
+}

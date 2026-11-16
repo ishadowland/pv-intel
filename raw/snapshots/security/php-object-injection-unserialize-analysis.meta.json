@@ -1,0 +1,12 @@
+{
+  "source_url": "https://security.unboundcompute.com/php-object-injection",
+  "fetched_at": "2026-11-17 07:12:36",
+  "http_status": 200,
+  "sha256_raw": "5ac0e167d4c5f8327117822fc5f5380aadc17937d36a8633714f570ae6563020",
+  "raw_bytes": 105493,
+  "text_chars": 8319,
+  "truncated": false,
+  "domain": "security",
+  "slug": "php-object-injection-unserialize-analysis",
+  "gzip_decoded": false
+}

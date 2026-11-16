@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03",
+  "fetched_at": "2026-11-17 07:11:04",
+  "http_status": 200,
+  "sha256_raw": "36c7d87c5baca836c68589aa67b01e7d26314274007a441cfececcd7b9a0641c",
+  "raw_bytes": 68388,
+  "text_chars": 9324,
+  "truncated": false,
+  "domain": "security",
+  "slug": "icsa-26-316-03-siemens-industrial-edge",
+  "gzip_decoded": false
+}

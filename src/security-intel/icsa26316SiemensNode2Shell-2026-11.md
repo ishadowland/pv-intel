@@ -57,6 +57,10 @@
 | `raw/snapshots/security/icsa-26-316-01-siemens-building-automation.md` | `dd22f6e6f11c9eeda1c0ee6a9b2ade386a0a10664c879965112f9112cc923456` | 2026-11-15 07:11:48 | 14,979 字符 |
 | `raw/snapshots/security/icsa-26-316-05-siemens-ruggedcom-php2shell.md` | `b1d8657ce71209ce646eab8c70f98d25cb779e4d1cd276b9456ed92b7980443b` | 2026-11-15 07:11:49 | 7,877 字符 |
 | `raw/snapshots/security/siemens-node2shell-php2shell-trout-analysis.md` | `43ff521efd8cec8ec917527bd0c33e5bb7462cc338ab7fcae85e4873a758f353` | 2026-11-15 07:11:50 | 16,791 字符 |
+| `raw/snapshots/security/icsa-26-316-02-siemens-desigo-gridscale.md` | `65bfd6156df8a0100307b5cc42557790dcdcbb122254c20570c16abfaee6ba34` | 2026-11-17 07:11:04 | 8,208 字符 |
+| `raw/snapshots/security/icsa-26-316-03-siemens-industrial-edge.md` | `36c7d87c5baca836c68589aa67b01e7d26314274007a441cfececcd7b9a0641c` | 2026-11-17 07:11:04 | 9,324 字符 |
+| `raw/snapshots/security/siemens-5-advisories-2026-11-12-analysis.md` | `c8f67e35938adfb43dbac9f5e69c9a0ba71b8a70ea730d4bb82f2ffb94c13287` | 2026-11-17 07:11:05 | 21,178 字符（第三方独立分析第二信源） |
+| `raw/snapshots/security/cisa-ics-advisories-index-2026-11-17.md` | `82b022cdd20ea2ee9b0f51178786593cf8b9867006b1e0358dbb0167a1770238` | 2026-11-17 07:10:41 | 2,210 字符（索引页 · 核验无新通告） |
 
 **关键原文摘录（CISA ICSA-26-316-04 官方，快照逐字）**：
 
@@ -159,6 +163,26 @@
 - [ ] **跟踪项** —— 补齐我方 Brotli / PHP 依赖清单（库内目前无可查材料）；跟踪 CISA KEV 与 PAN-OS 在野利用进展；关注 Common Configurator / Energy Engage 等"无补丁/无补丁计划"产品的后续处置
 
 ---
+
+## 最新动态
+
+> 本节按 `source_url` 去重规则累积更新（同一事件只更新此处，不另建文档）。
+> **last_seen：2026-11-17 07:11**（CISA 官方通告索引页 + ICSA-26-316-02 / -03 官方原文补抓）
+
+| 观测时间 | 事件 | 状态变化 |
+|---|---|---|
+| **2026-11-17 07:10** | **CISA 通告索引页快照核验：11-12 之后无新 ICS 通告** —— 索引页最新五条仍为 `Nov 12, 2026` 的 ICSA-26-316-05 / -04 / -03 / -02 / -01，页面显示 "Showing 1 to 10 of **4234** results" | ✅ **本期无新 CVE 可收**（否定性结论同样入库，避免下次重复检索） |
+| **2026-11-17 07:11** | **补抓 ICSA-26-316-02 官方原文**（此前本文对 316-02 的描述来自 Trout 转述，现取得 CISA 一手页面）。核实要点：**Desigo CC family V8 / V9 全部版本**、**Gridscale X DSA ≥5.3 <5.4**、**Gridscale X PSS®E <36.8.0** 受影响；CVSS v3.1 **9.8**（`AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H`）；修复方式为**装 .NET 安全更新**（Desigo CC）与**升级版本**（Gridscale X） | ✅ **本文原有转述结论经一手核验一致**；⭐ **新获**：316-02 **修订历史** —— 初版 2026-10-30，2026-11-04 第 2 版"Added Desigo CC to the affected products list"（即 **Desigo CC 是后续补列的**，非初版即含） |
+| **2026-11-17 07:11** | **补抓 ICSA-26-316-03 官方原文**（Industrial Edge Management）。核实要点：**10 个受影响配置器**（Cloud Connector <1.24.3 / Common Configurator（IEM 与 Device 两处）/ Data Flow Monitoring <3.0.18 / Databus <4.0.1 / DataXess <1.5.7 / Edge OPC UA Server <2.3.10 / Flow Creator <1.15.1 / Industrial Edge Hub / IEM Cloud）；CVSS v3.1 **9.8** | ✅ 一手核验一致；⭐ **新获三条此前只有 Trout 转述的官方原文措辞**：① **"Common Configurator"（IEM 与 Device 两处）当前无补丁**，官方缓解措施逐字为 **"Uninstall all Management Applications and protect your IEM instance with a Firewall/WAF until a fix is available"**；② **"Industrial Edge Hub" 与 "Industrial Edge Management Cloud" 属 Siemens 托管服务，官方称已实施 Firewall/WAF 保护**（这两项**产品状态为 known_affected** 但修复在云端侧完成，"no user actions necessary"）；③ **官方按部署形态分档给出处置建议** —— 未装 Management Applications 者**无需动作**（Brotli 库虽在软件栈内但相关功能未暴露）、装了 Management / Device Applications 者按缓解措施执行 |
+| **2026-11-17 07:11** | **补抓第三方独立分析**（AutoDCS Tech《CISA's 12 November 2026 Siemens ICS Advisories》，21178 字符）作为本期第二信源，与 Trout 分析交叉 | ✅ 双第三方分析 + 三份 CISA 一手通告，**本文信源结构补强至五源** |
+
+**本期新增可入库结论（对本文既有判断的影响）**：
+
+- ⭐ **"厂商自己把 WAF/防火墙列为无补丁设备的兜底手段"这一判断，本期取得官方原文逐字支撑**：ICSA-26-316-03 对无补丁的 Common Configurator 写的是 *"Uninstall all Management Applications and protect your IEM instance with a **Firewall/WAF** until a fix is available"*。此前本文引的是 Trout 的转述，本期已可引**官方一手措辞** —— 对我方把 **WAF 作为 OT 场景兜底防线**的产品定位论证力度明显增强。
+- ⭐ **新增一条对"安全设备自保护"更有力的旁证**：Siemens 明确**自家托管的云服务（Industrial Edge Hub / IEM Cloud）也已部署 Firewall/WAF**，但同时**这两项仍标 known_affected** —— 即"**厂商在自家托管服务上做了 WAF 保护，仍不敢说该产品不受影响**"。这把 APE1808 那条"安全设备不该是网段唯一防线"从**单点案例**升级为**厂商侧的系统性做法**。
+- ⚠️ **暴露面判定结论不变**：Siemens Desigo / Gridscale / Industrial Edge / RUGGEDCOM 仍**不在我方技术栈**，按暴露面三问全不过 → **仍不进专项整改**，仍只产出**通用库版本基线**（Brotli ≥1.0.10/1.1.1/1.2.1；PHP ≥8.2.35/8.3.36/8.4.27/8.5.12）与**方向级**条目。
+- ⚠️ **不要把"316-03 有 10 个受影响配置器"写成"新增 10 个漏洞"** —— **全部指向同一个 CVE-2026-111497**（Brotli 越界写），是**同一漏洞在 10 个配置器上的落地面**，不是漏洞数量增长。
+- ⚠️ **本条与 [PHP 反序列化探测命中我方站点](phpDeserializationProbe-2026-11.md) 是两条独立情报，不可混谈**：本文是 **Brotli/PHP 通用库的版本基线**（我方侧待自查依赖版本），那一条是**攻击侧已观测到反序列化类型流量且未被拦截**（我方侧一手观测）。**两者共同指向同一个待办：我方 PHP 依赖与 `unserialize()` 入口清单** —— 建议合并为一次代码审计。
 
 ## 参考链接
 

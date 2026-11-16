@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.autodcstech.com/cisa-12-november-2026-siemens-ics-advisories",
+  "fetched_at": "2026-11-17 07:11:05",
+  "http_status": 200,
+  "sha256_raw": "c8f67e35938adfb43dbac9f5e69c9a0ba71b8a70ea730d4bb82f2ffb94c13287",
+  "raw_bytes": 145723,
+  "text_chars": 21178,
+  "truncated": false,
+  "domain": "security",
+  "slug": "siemens-5-advisories-2026-11-12-analysis",
+  "gzip_decoded": false
+}

@@ -1,0 +1,12 @@
+{
+  "source_url": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/lastest/rptid/848133940276/index.phtml",
+  "fetched_at": "2026-11-17 07:12:19",
+  "http_status": 200,
+  "sha256_raw": "1507832e13784fd233568d24af210fe5169fa0e50faf5745a3b4e29e8bda01c3",
+  "raw_bytes": 26351,
+  "text_chars": 1827,
+  "truncated": false,
+  "domain": "solar",
+  "slug": "guangfa-building-materials-2026q3",
+  "gzip_decoded": false
+}
