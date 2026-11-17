@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.cisa.gov/news-events/ics-advisories",
+  "fetched_at": "2026-11-18 07:10:48",
+  "http_status": 200,
+  "sha256_raw": "4b50d8464e634062a1a8505cfca121d902a434ba471a3d1a7ccc0e12ee85571d",
+  "raw_bytes": 339069,
+  "text_chars": 2022,
+  "truncated": false,
+  "domain": "security",
+  "slug": "cisa-ics-advisories-index-2026-11-18",
+  "gzip_decoded": false
+}

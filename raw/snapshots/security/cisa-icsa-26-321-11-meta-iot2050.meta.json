@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11",
+  "fetched_at": "2026-11-18 07:10:56",
+  "http_status": 200,
+  "sha256_raw": "be6548c1cc9779f8b019fd13ed375f1449d634cafbf3eb7dc88badc801a62a32",
+  "raw_bytes": 64439,
+  "text_chars": 6388,
+  "truncated": false,
+  "domain": "security",
+  "slug": "cisa-icsa-26-321-11-meta-iot2050",
+  "gzip_decoded": false
+}

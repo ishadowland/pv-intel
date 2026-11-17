@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.defconlevel.com/alert/2026-11-17-cisa-cybersecurity-advisories-siemens-meta-iot2050-icsa-26-321-11",
+  "fetched_at": "2026-11-18 07:12:59",
+  "http_status": 200,
+  "sha256_raw": "eb9525982bf3c612f2cbdc2e8fae380c73ea59e70a0149db65230173b58bf654",
+  "raw_bytes": 141771,
+  "text_chars": 8705,
+  "truncated": false,
+  "domain": "security",
+  "slug": "defconlevel-icsa-26-321-11",
+  "gzip_decoded": false
+}

@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02",
+  "fetched_at": "2026-11-18 07:11:19",
+  "http_status": 200,
+  "sha256_raw": "8dc8c9d070635a1f59fd8216d5afadd6b2e9734b2d1a63b67099268d16129c38",
+  "raw_bytes": 66694,
+  "text_chars": 7552,
+  "truncated": false,
+  "domain": "security",
+  "slug": "cisa-icsa-26-321-02-s7-dotnet",
+  "gzip_decoded": false
+}

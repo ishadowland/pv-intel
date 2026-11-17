@@ -1,0 +1,12 @@
+{
+  "source_url": "https://aviatrix.ai/threat-research-center/icsa-26-321-05-siemens-mendix-studio-pro-mcp-csrf-cve-2026-112136/",
+  "fetched_at": "2026-11-18 07:14:08",
+  "http_status": 200,
+  "sha256_raw": "0300ad92d51ec767959149213476c083e1e8696e66df1c76728831be3146c2ce",
+  "raw_bytes": 327524,
+  "text_chars": 17484,
+  "truncated": false,
+  "domain": "security",
+  "slug": "aviatrix-mendix-mcp-analysis",
+  "gzip_decoded": false
+}

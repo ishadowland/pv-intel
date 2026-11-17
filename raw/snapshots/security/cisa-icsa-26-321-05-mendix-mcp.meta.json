@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05",
+  "fetched_at": "2026-11-18 07:10:58",
+  "http_status": 200,
+  "sha256_raw": "218d67a73e684ebadf469817bcd523d668f2a593dc8bcdd0fc6c3fd46dd2da44",
+  "raw_bytes": 69336,
+  "text_chars": 9655,
+  "truncated": false,
+  "domain": "security",
+  "slug": "cisa-icsa-26-321-05-mendix-mcp",
+  "gzip_decoded": false
+}

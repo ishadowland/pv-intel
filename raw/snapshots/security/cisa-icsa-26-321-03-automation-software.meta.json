@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03",
+  "fetched_at": "2026-11-18 07:11:19",
+  "http_status": 200,
+  "sha256_raw": "fd0e0934e4b1f0d8cad3e7ba7b8382b67c36335b05289f4ed639ddb947db99cd",
+  "raw_bytes": 72243,
+  "text_chars": 12238,
+  "truncated": false,
+  "domain": "security",
+  "slug": "cisa-icsa-26-321-03-automation-software",
+  "gzip_decoded": false
+}
