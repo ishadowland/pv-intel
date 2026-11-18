@@ -1,0 +1,12 @@
+{
+  "source_url": "https://breach-signal.com/vulnerabilities/cisa-emergency-advisory-openjdk-cve-2026-114938",
+  "fetched_at": "2026-11-19 07:11:14",
+  "http_status": 200,
+  "sha256_raw": "c5d610e6b9fea76a3a919c5f5b4212af53bb74ebd7bedec5b0a2ec5415e73696",
+  "raw_bytes": 168984,
+  "text_chars": 9490,
+  "truncated": false,
+  "domain": "security",
+  "slug": "breachsignal-java4shell-analysis-2026-11-18",
+  "gzip_decoded": false
+}

@@ -1,0 +1,12 @@
+{
+  "source_url": "https://cisa.gov/news-events/alerts/2026/11/17/critical-java-vulnerability-requires-immediate-patching",
+  "fetched_at": "2026-11-19 07:11:11",
+  "http_status": 200,
+  "sha256_raw": "6696df155dcacb9e417c90bcb6f5f413b6e705482901d75e7c6807394f0b79c6",
+  "raw_bytes": 53750,
+  "text_chars": 2887,
+  "truncated": false,
+  "domain": "security",
+  "slug": "cisa-java4shell-alert-2026-11-17",
+  "gzip_decoded": false
+}
