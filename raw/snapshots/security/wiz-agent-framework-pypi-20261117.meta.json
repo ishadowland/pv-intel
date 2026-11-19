@@ -1,0 +1,12 @@
+{
+  "source_url": "https://wiz.io/blog/malicious-version-of-microsofts-agent-framework-published-to-pypi",
+  "fetched_at": "2026-11-20 07:13:32",
+  "http_status": 200,
+  "sha256_raw": "3b277e134d2e4cd27bb7200633b5b7f423ab2739dca7c5244dd5d9468c5fbcf0",
+  "raw_bytes": 454669,
+  "text_chars": 10228,
+  "truncated": false,
+  "domain": "security",
+  "slug": "wiz-agent-framework-pypi-20261117",
+  "gzip_decoded": false
+}

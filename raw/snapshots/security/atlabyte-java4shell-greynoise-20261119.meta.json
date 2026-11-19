@@ -1,0 +1,12 @@
+{
+  "source_url": "https://atlabyte.com/en/news/java4shell-greynoise-logged-150-exploitation-attempts",
+  "fetched_at": "2026-11-20 07:13:36",
+  "http_status": 200,
+  "sha256_raw": "f4340020d8cabae616f995606ed285cd5c4e04a42cf1d306b2b11c96c80b2b67",
+  "raw_bytes": 134845,
+  "text_chars": 5550,
+  "truncated": false,
+  "domain": "security",
+  "slug": "atlabyte-java4shell-greynoise-20261119",
+  "gzip_decoded": false
+}

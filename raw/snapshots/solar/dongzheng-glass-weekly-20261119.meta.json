@@ -1,0 +1,12 @@
+{
+  "source_url": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/11/rptid/848417461049/index.phtml",
+  "fetched_at": "2026-11-20 07:19:30",
+  "http_status": 200,
+  "sha256_raw": "a479bc1753ae23181a0bbdb4ec85aadbb763170d6c217d08c51798182e259b99",
+  "raw_bytes": 25197,
+  "text_chars": 1035,
+  "truncated": false,
+  "domain": "solar",
+  "slug": "dongzheng-glass-weekly-20261119",
+  "gzip_decoded": false
+}

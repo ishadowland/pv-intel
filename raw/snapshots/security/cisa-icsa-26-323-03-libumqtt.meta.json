@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+  "fetched_at": "2026-11-20 07:11:56",
+  "http_status": 200,
+  "sha256_raw": "e02dad2240d67144d41d46a18e943508ecca76cf2e8e21bb8cad9f9716aba061",
+  "raw_bytes": 63497,
+  "text_chars": 5119,
+  "truncated": false,
+  "domain": "security",
+  "slug": "cisa-icsa-26-323-03-libumqtt",
+  "gzip_decoded": false
+}

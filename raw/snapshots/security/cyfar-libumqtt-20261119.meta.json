@@ -1,0 +1,12 @@
+{
+  "source_url": "https://cyfar.ca/posts/libumqtt-cve-2026-125132",
+  "fetched_at": "2026-11-20 07:11:55",
+  "http_status": 200,
+  "sha256_raw": "64ec7b341db3e822c3cbf49a766644d760082a2edb79d042d8f9312e3ba0262c",
+  "raw_bytes": 104568,
+  "text_chars": 2261,
+  "truncated": false,
+  "domain": "security",
+  "slug": "cyfar-libumqtt-20261119",
+  "gzip_decoded": false
+}

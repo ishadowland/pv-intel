@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.chainguard.dev/fr-FR/unchained/microsoft-agent-framework-compromised-on-pypi-november-2026",
+  "fetched_at": "2026-11-20 07:13:33",
+  "http_status": 200,
+  "sha256_raw": "773f947ddd081205b725e9fc3b97fded1f0b03a16db739ad4f82470c47d5aca5",
+  "raw_bytes": 222945,
+  "text_chars": 13637,
+  "truncated": false,
+  "domain": "security",
+  "slug": "chainguard-agent-framework-pypi-20261117",
+  "gzip_decoded": false
+}

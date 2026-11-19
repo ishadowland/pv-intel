@@ -14,6 +14,7 @@
   - [主链价格与库存 11-16 周度快照（亏损扩大 · 库存仍累）](solar-industry/chainPriceInventory-2026-11-16.md)
   - [主链价格与库存 11-17 日度快照（复投料现货首次下跌）](solar-industry/chainPriceInventory-2026-11-17.md)
   - [主链价格与库存 11-18 日度快照（期货三连跌 + 持仓增 · 进出口量首次入库）](solar-industry/chainPriceInventory-2026-11-18.md)
+  - [主链价格与库存 11-19 日度快照（期货四连跌 · 复投料 41.35 被反推证伪）](solar-industry/chainPriceInventory-2026-11-19.md)
   - [光伏玻璃全行业现金亏损与供给出清（2026-11-17）](solar-industry/solarGlassLossesSupplyExit2026-2026.md)
   - [产能出清进度与组件中标价（2026-11）](solar-industry/polyCapacityExitBiddingPrice-2026-11.md)
   - [光伏玻璃成本端上行（2026-11）](solar-industry/solarGlassCostUp-2026-11.md)
@@ -32,6 +33,8 @@
   - [《重点产品碳足迹标准体系建设行动方案（2026—2028 年）》（124 号文）](policy/carbonFootprintStandardsActionPlan2026-2026.md)
   - [国家能源局关于加快推动流域水风光一体化发展的指导意见（国能发新能〔2026〕92 号）](policy/neaWaterspWindsolarGuidance2026-2026.md)
   - [商务部等 9 部门关于深入推进再生资源回收体系建设的意见（退役组件回收 · 新三样）](policy/mofcomRecyclingSystemNewThree2026-2026.md)
+  - [《中国虚拟电厂发展报告（2026）》（592 个 / 2042.8 万千瓦 · 资源构成占比首次入库）](policy/neaVirtualPowerPlantReport2026-2026.md)
+  - [《四川省新能源资源市场化配置管理办法》川发改能源规〔2026〕434 号（库内首份省级竞配办法全文）](policy/sichuanMarketAllocation2026-2026.md)
 - [🛡️ 网络安全情报](security-intel/README.md) — CVE / WAF 攻击面 / 合规基线 / 内部安全动态
   - [EPICS 工控漏洞 + 光伏 DER 暴露面（2026-11）](security-intel/epicsDerExposure-2026-11.md)
   - [凭据收割扫描器路径字典命中我方站点（2026-11-15）](security-intel/credentialHarvestProbePaths-2026-11.md)
@@ -44,6 +47,8 @@
   - [CISA ICSA-26-321 批次：Mendix MCP Server 暴露 + meta-iot2050 命令注入](security-intel/icsa26321McpServerFirmwareCommandInjection-2026-11.md)
   - [Java4Shell（CVE-2026-114938）：库内第一条运行时层漏洞 · SCA/SBOM 结构性盲区](security-intel/java4ShellCve2026114938-2026-11.md)
   - [WAF 巡检 11-18：我方 /preview/getCorsFile 接口的 Base64 URL 参数面](security-intel/wafCorsFilePreviewUrlParamSurface-2026-11-18.md)
+  - [CISA ICSA-26-323-03：libumqtt 整数下溢 CVE-2026-125132（无补丁 · 维护者失联）](security-intel/libumqttCve2026125132-2026-11.md)
+  - [Microsoft agent-framework PyPI 投毒（1.26.1/1.26.2 · .pth 常驻 · 云身份令牌外传）](security-intel/agentFrameworkPypiSupplyChain-2026-11.md)
 
 ---
 
@@ -51,6 +56,7 @@
 
 - [📋 定期简报](briefings/README.md) — 日报 / 周报 / 月报，按周期归档
   - [2026-11-17 日报（第 5 期）](briefings/2026-11-17-daily.md)
+  - [2026-11-20 日报（第 8 期）](briefings/2026-11-20-daily.md)
   - [2026-11-19 日报（第 7 期）](briefings/2026-11-19-daily.md)
   - [2026-11-18 日报（第 6 期）](briefings/2026-11-18-daily.md)
   - [2026-11-16 日报（第 4 期）](briefings/2026-11-16-daily.md)

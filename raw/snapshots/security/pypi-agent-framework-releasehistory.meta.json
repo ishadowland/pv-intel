@@ -1,0 +1,12 @@
+{
+  "source_url": "https://pypi.org/pypi/agent-framework/json",
+  "fetched_at": "2026-11-20 07:29:26",
+  "http_status": 200,
+  "sha256_raw": "9b8b433ff0a3a3c594ef5a25c4c756d530d7b3d23cd6a9b9df2785404eecc1c2",
+  "raw_bytes": 121385,
+  "text_chars": 60018,
+  "truncated": true,
+  "domain": "security",
+  "slug": "pypi-agent-framework-releasehistory",
+  "gzip_decoded": false
+}

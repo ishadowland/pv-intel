@@ -1,0 +1,12 @@
+{
+  "source_url": "https://aviatrix.ai/threat-research-center/icsa-26-323-03-libumqtt-cve-2026-125132-integer-underflow/",
+  "fetched_at": "2026-11-20 07:12:15",
+  "http_status": 200,
+  "sha256_raw": "e7dbc39b8e444fb95c0433bfe49f73bb878bdd31ac49ddbf7f48f7140c52251c",
+  "raw_bytes": 317988,
+  "text_chars": 15961,
+  "truncated": false,
+  "domain": "security",
+  "slug": "aviatrix-libumqtt-20261119",
+  "gzip_decoded": false
+}
