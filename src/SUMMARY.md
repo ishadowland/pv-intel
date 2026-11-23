@@ -55,6 +55,7 @@
 # 产出域
 
 - [📋 定期简报](briefings/README.md) — 日报 / 周报 / 月报，按周期归档
+  - [2026-W47 周报（2026-11-16 ~ 11-22）](briefings/2026-W47-weekly.md)
   - [2026-11-17 日报（第 5 期）](briefings/2026-11-17-daily.md)
   - [2026-11-20 日报（第 8 期）](briefings/2026-11-20-daily.md)
   - [2026-11-19 日报（第 7 期）](briefings/2026-11-19-daily.md)

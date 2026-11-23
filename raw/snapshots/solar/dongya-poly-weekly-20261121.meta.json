@@ -1,0 +1,12 @@
+{
+  "source_url": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/11/rptid/848587380098/index.phtml",
+  "fetched_at": "2026-11-23 09:43:39",
+  "http_status": 200,
+  "sha256_raw": "71df693bc3a658b8f5df67cf20e7ef02f804afc244ad001cb658746c72d88537",
+  "raw_bytes": 25160,
+  "text_chars": 1242,
+  "truncated": false,
+  "domain": "solar",
+  "slug": "dongya-poly-weekly-20261121",
+  "gzip_decoded": false
+}
