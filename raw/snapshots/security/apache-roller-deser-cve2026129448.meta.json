@@ -1,0 +1,12 @@
+{
+  "source_url": "https://helix.ml/threat-watch/i/apache-roller-unauthenticated-rce-via-xml-rpc-deserialization-actively-exploited-cve-2026-129448",
+  "fetched_at": "2026-11-24 07:12:47",
+  "http_status": 200,
+  "sha256_raw": "46e5d06c720ee2115215d605750f2a97125f1637a35f20a02c59fb50464fa7e2",
+  "raw_bytes": 100940,
+  "text_chars": 1222,
+  "truncated": false,
+  "domain": "security",
+  "slug": "apache-roller-deser-cve2026129448",
+  "gzip_decoded": false
+}

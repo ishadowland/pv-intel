@@ -1,0 +1,12 @@
+{
+  "source_url": "https://depthfirst.com/research/phpaftershell",
+  "fetched_at": "2026-11-24 07:12:41",
+  "http_status": 200,
+  "sha256_raw": "53c11eb35c991a4b62089952f8ad76f600fa3a4e7700f141af816cf0c5f9efef",
+  "raw_bytes": 170846,
+  "text_chars": 29288,
+  "truncated": false,
+  "domain": "security",
+  "slug": "phpaftershell-depthfirst",
+  "gzip_decoded": false
+}

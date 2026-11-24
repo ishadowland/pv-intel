@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.worldprogramming.org/posts/a-session-key-from-a-timestamp-inside-vcenter-cve-2026-123890-and-the-chain-to-full-directory-theft-avpbt3",
+  "fetched_at": "2026-11-24 07:14:50",
+  "http_status": 200,
+  "sha256_raw": "8024ccbe1b732c18f1608b5ed4715ff0c9ed15ef8c903fd79b2dbea94ce98fbd",
+  "raw_bytes": 92603,
+  "text_chars": 23663,
+  "truncated": false,
+  "domain": "security",
+  "slug": "vmware-vcenter-kev-20261120-analysis",
+  "gzip_decoded": false
+}

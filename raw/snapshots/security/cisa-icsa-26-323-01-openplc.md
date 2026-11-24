@@ -1,7 +1,7 @@
 <!-- 原文快照 · 自动归档，请勿手工编辑 -->
 <!-- source_url: https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01 -->
-<!-- fetched_at: 2026-11-23 09:43:40 -->
-<!-- sha256: 65863add2ee6ddd9c69c0930d99bcb4f4142e6a10ee2b8b4380fb02bd632648d -->
+<!-- fetched_at: 2026-11-24 07:24:32 -->
+<!-- sha256: 5a4036126da460852cd94938a86db70b58e6407eaf9daacbe4b6e98cd66cd24c -->
 
 Autonomy Logic OpenPLC Runtime | CISA
 

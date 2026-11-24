@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog-print",
+  "fetched_at": "2026-11-24 07:12:38",
+  "http_status": 200,
+  "sha256_raw": "a9c13124131a9fe53ee73380183aacfc01ce2917e167c094de5d7c24130666f1",
+  "raw_bytes": 5912203,
+  "text_chars": 60018,
+  "truncated": true,
+  "domain": "security",
+  "slug": "cisa-kev-catalog-20261120",
+  "gzip_decoded": false
+}

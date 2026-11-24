@@ -1,0 +1,12 @@
+{
+  "source_url": "https://github.com/php/php-src/security/advisories/GHSA-fm2m-fjf5-v3cp",
+  "fetched_at": "2026-11-24 07:24:33",
+  "http_status": 200,
+  "sha256_raw": "73a418384d4f3638698fd31a40d1c7ecc98eec09ed07b7aa9822b44545397f3a",
+  "raw_bytes": 155054,
+  "text_chars": 10839,
+  "truncated": false,
+  "domain": "security",
+  "slug": "php-src-ghsa-fm2m-fjf5-v3cp",
+  "gzip_decoded": false
+}

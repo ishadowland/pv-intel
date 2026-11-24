@@ -1,0 +1,12 @@
+{
+  "source_url": "https://itdef.net/zh-CN/alerts/cve-2026-40217",
+  "fetched_at": "2026-11-24 07:12:40",
+  "http_status": 200,
+  "sha256_raw": "d52f93ab7cbe19fecc5355d6ac562c61e966572bed9b9c45e2f2d569b61f9438",
+  "raw_bytes": 248617,
+  "text_chars": 4166,
+  "truncated": false,
+  "domain": "security",
+  "slug": "litellm-kev-analysis-itdef",
+  "gzip_decoded": false
+}

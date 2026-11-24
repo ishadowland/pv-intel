@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.defconlevel.com/alert/2026-11-19-cisa-cybersecurity-advisories-autonomy-logic-openplc-runtime-icsa-26-323-01",
+  "fetched_at": "2026-11-24 07:12:51",
+  "http_status": 200,
+  "sha256_raw": "e67757ae2f7e448884fe6b81b72774d1e32cf0a56b8a00fd83853e061f5a3ea9",
+  "raw_bytes": 146987,
+  "text_chars": 8459,
+  "truncated": false,
+  "domain": "security",
+  "slug": "openplc-runtime-cve2026126088",
+  "gzip_decoded": false
+}

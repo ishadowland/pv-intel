@@ -1,0 +1,12 @@
+{
+  "source_url": "https://aviatrix.ai/threat-research-center/icsa-26-323-01-openplc-runtime-race-condition-cve-2026-126088",
+  "fetched_at": "2026-11-24 07:12:51",
+  "http_status": 200,
+  "sha256_raw": "56553374e7162808edadbe4410e30146387498a09f58657296dabf2b8a2847b3",
+  "raw_bytes": 314487,
+  "text_chars": 15773,
+  "truncated": false,
+  "domain": "security",
+  "slug": "openplc-runtime-aviatrix-analysis",
+  "gzip_decoded": false
+}

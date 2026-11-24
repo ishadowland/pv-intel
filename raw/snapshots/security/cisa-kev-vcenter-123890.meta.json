@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-123890",
+  "fetched_at": "2026-11-24 07:22:28",
+  "http_status": 200,
+  "sha256_raw": "c3b5f1fd11a0d00da88fe340e35dc9074d4092ce21c725d10b97a0b8536b7977",
+  "raw_bytes": 62567,
+  "text_chars": 2827,
+  "truncated": false,
+  "domain": "security",
+  "slug": "cisa-kev-vcenter-123890",
+  "gzip_decoded": false
+}

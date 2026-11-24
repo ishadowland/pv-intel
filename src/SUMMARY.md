@@ -7,6 +7,8 @@
 # 情报采集域
 
 - [☀️ 光伏产业](solar-industry/README.md) — 产业链供需 / 价格曲线 / 技术路线 / 装机与出口数据
+  - [主链价格与库存 11-23 日度快照](solar-industry/chainPriceInventory-2026-11-23.md)
+  - [组件价格结构性分化（低效端清库 / 高效端缺货）](solar-industry/moduleLowEffClearanceSplit-2026-11.md)
   - [2026-11 价格快照](solar-industry/componentPriceSnapshot-2026-11.md)
   - [主链价格与库存 11-12 快照](solar-industry/chainPriceInventory-2026-11-12.md)
   - [主链价格与库存 11-13 周度快照（硅料跌破生产成本）](solar-industry/chainPriceInventory-2026-11-14.md)
@@ -20,6 +22,8 @@
   - [光伏玻璃成本端上行（2026-11）](solar-industry/solarGlassCostUp-2026-11.md)
   - [新型电力系统的安全风险（2026-10-29 院刊综述）](solar-industry/newTypePowerSystemSecurity-2026.md)
 - [📜 政策发文](policy/README.md) — 部委与地方政策原文 / 解读 / 对产品的约束条款
+  - [GB 47834-2026 组件与逆变器能效限定值及能效等级](policy/gb47834PvEnergyEfficiencyStandard2026-2026.md)
+  - [能源领域节能降碳行动计划（2026—2028年）45 号文](policy/neaEnergySavingDecarbonPlan2026-2028-2026.md)
   - [促进新能源消纳和调控的指导意见（2026-11-10）](policy/ndrcNewEnergyConsumptionGuidance-2026.md)
   - [《分布式光伏发电开发建设管理办法》国能发新能规〔2025〕7 号（条款框架 + 地方落地）](policy/distributedPvManagementMeasure7hao-2026.md)
   - [“十五五”新型储能实施方案（发改能源〔2026〕1565号）](policy/storagePlan15thFiveth-2026.md)
@@ -36,6 +40,10 @@
   - [《中国虚拟电厂发展报告（2026）》（592 个 / 2042.8 万千瓦 · 资源构成占比首次入库）](policy/neaVirtualPowerPlantReport2026-2026.md)
   - [《四川省新能源资源市场化配置管理办法》川发改能源规〔2026〕434 号（库内首份省级竞配办法全文）](policy/sichuanMarketAllocation2026-2026.md)
 - [🛡️ 网络安全情报](security-intel/README.md) — CVE / WAF 攻击面 / 合规基线 / 内部安全动态
+  - [CISA KEV 2026-11-20 批次四条](security-intel/cisaKev20261120Batch-2026-11.md)
+  - [OpenPLC Runtime 竞态条件免认证建管理员账号](security-intel/openPlcRuntimeCve2026126088-2026-11.md)
+  - [phpAfterShell：PHP 默认会话处理器非原子写入](security-intel/phpAfterShellCve2026126714-2026-11.md)
+  - [LiteLLM 沙箱逃逸与密钥提权](security-intel/litellmCve202640217-2026-11.md)
   - [EPICS 工控漏洞 + 光伏 DER 暴露面（2026-11）](security-intel/epicsDerExposure-2026-11.md)
   - [凭据收割扫描器路径字典命中我方站点（2026-11-15）](security-intel/credentialHarvestProbePaths-2026-11.md)
   - [CISA 五部门联合警告：联网辅助设备攻击面（2026-11-05）](security-intel/cisaRefrigerationColdChain-2026-11.md)
@@ -55,6 +63,7 @@
 # 产出域
 
 - [📋 定期简报](briefings/README.md) — 日报 / 周报 / 月报，按周期归档
+  - [2026-11-24 日报（GB 47834 强制国标真身 / 组件价格双向分化 / 竞态绕过认证首证）](briefings/2026-11-24-daily.md)
   - [2026-W47 周报（2026-11-16 ~ 11-22）](briefings/2026-W47-weekly.md)
   - [2026-11-17 日报（第 5 期）](briefings/2026-11-17-daily.md)
   - [2026-11-20 日报（第 8 期）](briefings/2026-11-20-daily.md)

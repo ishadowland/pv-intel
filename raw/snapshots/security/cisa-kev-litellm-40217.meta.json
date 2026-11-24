@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-40217",
+  "fetched_at": "2026-11-24 07:22:29",
+  "http_status": 200,
+  "sha256_raw": "4118bed692f951ccafa8f5250f8ba459381cd5b3eac75fed122a3b1a66294ebf",
+  "raw_bytes": 62368,
+  "text_chars": 2671,
+  "truncated": false,
+  "domain": "security",
+  "slug": "cisa-kev-litellm-40217",
+  "gzip_decoded": false
+}

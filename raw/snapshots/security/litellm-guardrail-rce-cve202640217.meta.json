@@ -1,0 +1,12 @@
+{
+  "source_url": "https://corgea.com/research/cve-2026-40217-litellm-guardrail-sandbox-escape-key-regenerate-rebind-kev-november-2026",
+  "fetched_at": "2026-11-24 07:12:39",
+  "http_status": 200,
+  "sha256_raw": "03cfc3fe6df8ba169503e149b8fce39d7c5b64f59ce3ddae395a9d1c5f253682",
+  "raw_bytes": 164016,
+  "text_chars": 16265,
+  "truncated": false,
+  "domain": "security",
+  "slug": "litellm-guardrail-rce-cve202640217",
+  "gzip_decoded": false
+}

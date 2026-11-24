@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-129448",
+  "fetched_at": "2026-11-24 07:22:28",
+  "http_status": 200,
+  "sha256_raw": "5470a15dc45b781bd0e8230918756ffa5db737af750c47c0e993e589e03a61eb",
+  "raw_bytes": 62525,
+  "text_chars": 2838,
+  "truncated": false,
+  "domain": "security",
+  "slug": "cisa-kev-roller-129448",
+  "gzip_decoded": false
+}

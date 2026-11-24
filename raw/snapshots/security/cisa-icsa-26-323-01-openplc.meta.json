@@ -1,8 +1,8 @@
 {
   "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
-  "fetched_at": "2026-11-23 09:43:40",
+  "fetched_at": "2026-11-24 07:24:32",
   "http_status": 200,
-  "sha256_raw": "65863add2ee6ddd9c69c0930d99bcb4f4142e6a10ee2b8b4380fb02bd632648d",
+  "sha256_raw": "5a4036126da460852cd94938a86db70b58e6407eaf9daacbe4b6e98cd66cd24c",
   "raw_bytes": 63451,
   "text_chars": 5130,
   "truncated": false,

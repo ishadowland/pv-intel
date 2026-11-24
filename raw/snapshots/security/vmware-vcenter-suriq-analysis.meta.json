@@ -1,0 +1,12 @@
+{
+  "source_url": "https://suriq.io/blog/vcenter-cve-2026-123890-sso-auth-bypass-exploited",
+  "fetched_at": "2026-11-24 07:12:50",
+  "http_status": 200,
+  "sha256_raw": "0b90437f0dd3929e68756e1f43a56fb127a74e0481ee686329f21ffb1f33e171",
+  "raw_bytes": 75483,
+  "text_chars": 15170,
+  "truncated": false,
+  "domain": "security",
+  "slug": "vmware-vcenter-suriq-analysis",
+  "gzip_decoded": false
+}

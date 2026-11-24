@@ -1,0 +1,12 @@
+{
+  "source_url": "https://exeo.net/en/threat-intelligence/actively-exploited-insecure-deserialization-vulnerability-in-apache-roller-cve-2026-129448",
+  "fetched_at": "2026-11-24 07:12:48",
+  "http_status": 200,
+  "sha256_raw": "861d07b0eee67c0bf00febbe4986782acb7e36b40ef5b72875d9ecd45ef70d94",
+  "raw_bytes": 322308,
+  "text_chars": 8755,
+  "truncated": false,
+  "domain": "security",
+  "slug": "apache-roller-exeo-analysis",
+  "gzip_decoded": false
+}
