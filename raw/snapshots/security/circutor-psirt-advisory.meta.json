@@ -1,0 +1,12 @@
+{
+  "source_url": "https://circutor.com/en/support/cybersecurity",
+  "fetched_at": "2026-11-25 07:17:52",
+  "http_status": 200,
+  "sha256_raw": "6e5c0957a3c5fb5eb665f47d48ab38ef7ea4c674694aca21c79bbe86a1f01525",
+  "raw_bytes": 72637,
+  "text_chars": 2723,
+  "truncated": false,
+  "domain": "security",
+  "slug": "circutor-psirt-advisory",
+  "gzip_decoded": false
+}

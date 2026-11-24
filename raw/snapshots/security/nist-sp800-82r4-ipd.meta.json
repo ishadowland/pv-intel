@@ -1,0 +1,12 @@
+{
+  "source_url": "https://csrc.nist.gov/pubs/sp/800/82/r4/ipd",
+  "fetched_at": "2026-11-25 07:12:24",
+  "http_status": 200,
+  "sha256_raw": "ea4511cef63f8daf6dacdabaa37fa83f77081d4b16a8372fb7281e02ceba5175",
+  "raw_bytes": 51322,
+  "text_chars": 6178,
+  "truncated": false,
+  "domain": "security",
+  "slug": "nist-sp800-82r4-ipd",
+  "gzip_decoded": false
+}

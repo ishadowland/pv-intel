@@ -7,6 +7,7 @@
 # 情报采集域
 
 - [☀️ 光伏产业](solar-industry/README.md) — 产业链供需 / 价格曲线 / 技术路线 / 装机与出口数据
+  - [主链价格与库存 11-24 日度快照（期货涨幅收敛 · 复投料连续第二日收于 40 元下方）](solar-industry/chainPriceInventory-2026-11-24.md)
   - [主链价格与库存 11-23 日度快照](solar-industry/chainPriceInventory-2026-11-23.md)
   - [组件价格结构性分化（低效端清库 / 高效端缺货）](solar-industry/moduleLowEffClearanceSplit-2026-11.md)
   - [2026-11 价格快照](solar-industry/componentPriceSnapshot-2026-11.md)
@@ -39,8 +40,19 @@
   - [商务部等 9 部门关于深入推进再生资源回收体系建设的意见（退役组件回收 · 新三样）](policy/mofcomRecyclingSystemNewThree2026-2026.md)
   - [《中国虚拟电厂发展报告（2026）》（592 个 / 2042.8 万千瓦 · 资源构成占比首次入库）](policy/neaVirtualPowerPlantReport2026-2026.md)
   - [《四川省新能源资源市场化配置管理办法》川发改能源规〔2026〕434 号（库内首份省级竞配办法全文）](policy/sichuanMarketAllocation2026-2026.md)
+  - [《工业绿色微电网建设与应用指南（2026—2030年）》工信厅联节〔2025〕77 号（60% 自消纳 · 20% 上网 · 七模块功能清单）](policy/miitGreenMicrogridGuide2026-2026.md)
+  - [广东省 2026 年机制电价竞价（竞争有效性系数 1.2 · 首个纯分布式省级竞价）](policy/guangdongMechanismAuction2026-2026.md)
+  - [湖南省 2026 年度机制电价竞价（聚合商写入竞价主体 · 保函 Σ 公式 · 边际 30%）](policy/hunanMechanismAuction2026-2026.md)
+  - [韶关市分布式光伏「四可」接入改造通知（双档硬截止日 · 不予并网 · 全流程调控测试）](policy/shaoguanSikeRetrofit2026-2026.md)
 - [🛡️ 网络安全情报](security-intel/README.md) — CVE / WAF 攻击面 / 合规基线 / 内部安全动态
   - [CISA KEV 2026-11-20 批次四条](security-intel/cisaKev20261120Batch-2026-11.md)
+  - [CISA KEV 2026-11-23 / 11-24 批次三条（AI 智能体自主发现并利用 · SSRF 官方定性 · 移除而非修补）](security-intel/cisaKev20261123Batch-2026-11.md)
+  - [NIST SP 800-82 Rev.4 初始公开草案（国家级 OT 安全基线 · 方法论被外部背书）](security-intel/nistSp80082r4OtSecurity-2026-11.md)
+  - [CISA ICSA-26-321-08 Siemens SIMATIC NTLM 中继（14 产品无补丁 · 唯一缓解是配置 SQL 加密）](security-intel/icsa26321SiemensSimaticNtlmRelay-2026-11.md)
+  - [CIRCUTOR PowerStudio JWT alg=none（电力监测 SCADA 免认证身份伪造 · 公开 PoC）](security-intel/circutorPowerStudioJwtNone-2026-11.md)
+  - [Azure APIM 密钥被窃 → 挪威能源行业被击中（库内首条能源行业确认在野入侵）](security-intel/azureApimNorwayEnergyBreach-2026-11.md)
+  - [Danfoss AK-SM 8xxA 制冷控制器案卷（国家级归因 · 物理过程被操纵 · 撤网优先）](security-intel/danfossAksmRefrigerationCampaign-2026-11.md)
+  - [WAF 巡检 2026-11-24 三轮序列（需拉黑类型日内归零 · 黑名单基线入库）](security-intel/wafInspectionSeries20261124-2026-11.md)
   - [OpenPLC Runtime 竞态条件免认证建管理员账号](security-intel/openPlcRuntimeCve2026126088-2026-11.md)
   - [phpAfterShell：PHP 默认会话处理器非原子写入](security-intel/phpAfterShellCve2026126714-2026-11.md)
   - [LiteLLM 沙箱逃逸与密钥提权](security-intel/litellmCve202640217-2026-11.md)
@@ -64,6 +76,7 @@
 
 - [📋 定期简报](briefings/README.md) — 日报 / 周报 / 月报，按周期归档
   - [2026-11-24 日报（GB 47834 强制国标真身 / 组件价格双向分化 / 竞态绕过认证首证）](briefings/2026-11-24-daily.md)
+  - [2026-11-25 日报（第 9 期：挪威能源行业被窃密钥 / Danfoss 国家级归因 / 工业微电网 60%·20%）](briefings/2026-11-25-daily.md)
   - [2026-W47 周报（2026-11-16 ~ 11-22）](briefings/2026-W47-weekly.md)
   - [2026-11-17 日报（第 5 期）](briefings/2026-11-17-daily.md)
   - [2026-11-20 日报（第 8 期）](briefings/2026-11-20-daily.md)

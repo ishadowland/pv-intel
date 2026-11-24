@@ -1,0 +1,12 @@
+{
+  "source_url": "https://threatticker.com/news/norway-warns-an-azure-api-management-flaw-was-exploited-against-equinor",
+  "fetched_at": "2026-11-25 07:34:11",
+  "http_status": 200,
+  "sha256_raw": "f6584fc521ad3b02178f3df1601091fd30514fbdc33224343de6610c3c7e5dd5",
+  "raw_bytes": 42930,
+  "text_chars": 5543,
+  "truncated": false,
+  "domain": "security",
+  "slug": "threatticker-norway-apim-equinor",
+  "gzip_decoded": false
+}

@@ -74,9 +74,9 @@
 
 | 快照 | SHA256 | 抓取时间 | 大小 |
 |---|---|---|---|
-| `raw/snapshots/solar/new-type-power-system-security-fulltext.md` | `ea60a311c0146d40…` | 2026-11-12 13:49:20 | 28,014 字符（PDF 正文，10 页，含页码分隔） |
-| `raw/snapshots/solar/new-type-power-system-security-journal.md` | `ff8bd72a715b998c…` | 2026-11-12 13:46:46 | 48,094 字符（期刊落地页：摘要 + 参考文献 + 元数据） |
-| `raw/snapshots/solar/new-type-power-system-security-wechat-repost.md` | `0863365bc57ea51e…` | 2026-11-12 13:49:58 | 70 字符 ⚠️ **抓取受阻**（微信"环境异常"人机校验墙），**非正文**，仅作 HTTP 状态凭证 |
+| `raw/snapshots/solar/new-type-power-system-security-fulltext.md` | `ea60a311c0146d4039a907e747571f5cda867fcc8417a97181d45faeb4fb643e` | 2026-11-12 13:49:20 | 28,014 字符（PDF 正文，10 页，含页码分隔） |
+| `raw/snapshots/solar/new-type-power-system-security-journal.md` | `ff8bd72a715b998cb007c57ffa1ddfb3551428f2a8ab27f0a66e15f0eb4ee141` | 2026-11-12 13:46:46 | 48,094 字符（期刊落地页：摘要 + 参考文献 + 元数据） |
+| `raw/snapshots/solar/new-type-power-system-security-wechat-repost.md` | `0863365bc57ea51e3b68985b8019c910f56393b48b652cc741c65e745d80c6f3` | 2026-11-12 13:49:58 | 70 字符 ⚠️ **抓取受阻**（微信"环境异常"人机校验墙），**非正文**，仅作 HTTP 状态凭证 |
 
 > ⚠️ 公众号页需浏览器 + 人机验证，脚本直取仅得校验墙；**正文证据以期刊 PDF 快照为准**。头条转载页同样为 JS 渲染，直取得 0 字符，故未入库。
 

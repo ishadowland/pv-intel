@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.defconlevel.com/alert/2026-11-17-cisa-cybersecurity-advisories-siemens-simatic-icsa-26-321-08",
+  "fetched_at": "2026-11-25 07:12:48",
+  "http_status": 200,
+  "sha256_raw": "91cfa521342de87e04c4557c22c6b6c2c67ebcae7a50c138c2140e2cb570db98",
+  "raw_bytes": 153318,
+  "text_chars": 11473,
+  "truncated": false,
+  "domain": "security",
+  "slug": "defconlevel-simatic-321-08",
+  "gzip_decoded": false
+}

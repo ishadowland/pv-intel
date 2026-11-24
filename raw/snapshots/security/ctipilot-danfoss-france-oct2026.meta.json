@@ -1,0 +1,12 @@
+{
+  "source_url": "https://ctipilot.ch/daily/2026-10-13",
+  "fetched_at": "2026-11-25 07:34:39",
+  "http_status": 200,
+  "sha256_raw": "c8931b2f29374b96b992e8970f41a0ac5d307890fe02eb62e5ce269bb1a2bb2b",
+  "raw_bytes": 189992,
+  "text_chars": 60018,
+  "truncated": true,
+  "domain": "security",
+  "slug": "ctipilot-danfoss-france-oct2026",
+  "gzip_decoded": false
+}

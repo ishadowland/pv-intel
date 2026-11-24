@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.redtigersecurity.com/advisories",
+  "fetched_at": "2026-11-25 07:34:40",
+  "http_status": 200,
+  "sha256_raw": "4fac91efb35158aea86a962d666fa003fd00ac9bffea3827c66a9cb1e7f6d05c",
+  "raw_bytes": 225311,
+  "text_chars": 45740,
+  "truncated": false,
+  "domain": "security",
+  "slug": "redtiger-advisories-20261124",
+  "gzip_decoded": false
+}

@@ -51,9 +51,9 @@
 
 | 快照 | SHA256 | 抓取时间 | 大小 |
 |---|---|---|---|
-| `raw/snapshots/policy/ndrc-consumption-guidance-20261110.md` | `71efed8de1d4da1f…` | 2026-11-12 12:11:33 | 7,751 字符 |
-| `raw/snapshots/policy/guidance-interpretation-cpnn.md` | `4c1c1fde6885a56d…` | 2026-11-12 12:13:18 | 3,899 字符 |
-| `raw/snapshots/policy/nea-wan-jinsong-20261108.md` | `10874cf586f978e6…` | 2026-11-12 12:13:07 | 2,899 字符 |
+| `raw/snapshots/policy/ndrc-consumption-guidance-20261110.md` | `71efed8de1d4da1fe37d61de22e620bcc894411951af160fe40ad0e0e60b2b41` | 2026-11-12 12:11:33 | 7,751 字符 |
+| `raw/snapshots/policy/guidance-interpretation-cpnn.md` | `4c1c1fde6885a56d6c48267fec852eefaafd9e47a86d1d472ed59469e0a079e1` | 2026-11-12 12:13:18 | 3,899 字符 |
+| `raw/snapshots/policy/nea-wan-jinsong-20261108.md` | `10874cf586f978e6cc6aaabb5d04be5382e6ac7d1b22153150634698503761d7` | 2026-11-12 12:13:07 | 2,899 字符 |
 
 **关键原文摘录（每经，2026-11-10 16:21）**：
 

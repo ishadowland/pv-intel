@@ -1,0 +1,14 @@
+{
+  "source_url": "file:///home/test/.openclaw/workspace/waf-inspection-report-2026-11-24-203727.md",
+  "fetched_at": "2026-11-25 07:39:31",
+  "http_status": 0,
+  "sha256_raw": "f213e82f2ad2a278b576f5c29dff6aaffcb78874601ba8cb04f6bec002b435c3",
+  "raw_bytes": 2792,
+  "text_chars": 1891,
+  "truncated": false,
+  "domain": "security",
+  "slug": "waf-report-20261124-203727",
+  "note": "内部数据源：SafeLine WAF 巡检报告（本地文件，非 URL 抓取）",
+  "origin_file": "waf-inspection-report-2026-11-24-203727.md",
+  "origin_mtime": "2026-11-24 20:37:27"
+}

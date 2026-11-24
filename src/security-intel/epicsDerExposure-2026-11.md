@@ -54,8 +54,8 @@
 
 | 快照 | SHA256 | 抓取时间 | 大小 |
 |---|---|---|---|
-| `raw/snapshots/security/epics-cve-2026-11-02.md` | `637c0b5644f6dc62…` | 2026-11-12 12:12:23 | 18,004 字符 |
-| `raw/snapshots/security/der-exposure-grid-trouble-in-paradise.md` | `51ff4d9df22b65f5…` | 2026-11-12 12:12:24 | 15,018 字符（截断） |
+| `raw/snapshots/security/epics-cve-2026-11-02.md` | `637c0b5644f6dc62947b3fb5f7aed8d9d59f8cc61fb4c6508a311ab3e6391050` | 2026-11-12 12:12:23 | 18,004 字符 |
+| `raw/snapshots/security/der-exposure-grid-trouble-in-paradise.md` | `51ff4d9df22b65f56d112318ac88417c555ec825080831632b7eccf595be9ec9` | 2026-11-12 12:12:24 | 15,018 字符（截断） |
 
 **关键原文摘录（CN-SEC，快照逐字）**：
 

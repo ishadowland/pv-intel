@@ -47,8 +47,8 @@
 
 | 快照 | SHA256 | 抓取时间 | 大小 |
 |---|---|---|---|
-| `raw/snapshots/solar/price-energytrend-20261111.md` | `bc2eaa5e5212f33b…` | 2026-11-12 12:12:23 | 2,143 字符 |
-| `raw/snapshots/solar/polysilicon-daily-20261111.md` | `cd0a06a6b876f86a…` | 2026-11-12 12:12:28 | 1,070 字符 |
+| `raw/snapshots/solar/price-energytrend-20261111.md` | `bc2eaa5e5212f33b483972728c10bababa683e7d053d6a6249017e41ba904279` | 2026-11-12 12:12:23 | 2,143 字符 |
+| `raw/snapshots/solar/polysilicon-daily-20261111.md` | `cd0a06a6b876f86af49232629a8dc4cbf9e8f17b47249706686773e6c1a6ce83` | 2026-11-12 12:12:28 | 1,070 字符 |
 
 > ⚠️ 同花顺 `m.10jqka.com.cn` 与新浪财经移动版均为 JS 渲染/风控页，curl 只能拿到 70–1,070 字符框架。**新浪财经快照正文完整**（含全部库存/产量数字），同花顺页快照仅得"环境异常"提示，**正文以 web_search 返回的检索摘要为准**。
 

@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.tenable.com/cve/CVE-2026-120387",
+  "fetched_at": "2026-11-25 07:19:25",
+  "http_status": 200,
+  "sha256_raw": "0bd88fa0cd458c2c2ff5145f3554c922ff9771489ebbea2dc9931a851861b1d5",
+  "raw_bytes": 58329,
+  "text_chars": 2471,
+  "truncated": false,
+  "domain": "security",
+  "slug": "tenable-circutor-jwt",
+  "gzip_decoded": false
+}

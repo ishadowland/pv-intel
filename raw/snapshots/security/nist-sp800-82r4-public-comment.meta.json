@@ -1,0 +1,12 @@
+{
+  "source_url": "https://zenodo.org/records/23149939",
+  "fetched_at": "2026-11-25 07:13:57",
+  "http_status": 200,
+  "sha256_raw": "d55dd72e58a7fd4541661f99348aac7731152f1147fe966513631a1376e9cb99",
+  "raw_bytes": 82845,
+  "text_chars": 2456,
+  "truncated": false,
+  "domain": "security",
+  "slug": "nist-sp800-82r4-public-comment",
+  "gzip_decoded": false
+}

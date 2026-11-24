@@ -57,7 +57,7 @@
 | 快照 | SHA256 | 抓取时间 | 大小 |
 |---|---|---|---|
 | `raw/snapshots/solar/solar-glass-three-rounds-2026-11.md` | `147a67d7f217eea7cd66143fe43d2e7cec9b445259757eaf93f68d669bbd14d7` | 2026-11-17 07:11:15 | 4,532 字符 |
-| `raw/snapshots/solar/guangfa-building-materials-2026-11-17.md` → `guangfa-building-materials-2026q3.md` | `1507832e13784fd233568d24af210fe5169fa0e50faf5745a3b4e29e8bda01c3` | 2026-11-17 07:12:19 | 1,827 字符 |
+| `raw/snapshots/solar/guangfa-building-materials-2026q3.md` → `guangfa-building-materials-2026q3.md` | `1507832e13784fd233568d24af210fe5169fa0e50faf5745a3b4e29e8bda01c3` | 2026-11-17 07:12:19 | 1,827 字符 |
 | `raw/snapshots/solar/northern-nonferrous-pv-daily-2026-11-16.md` | `dcd2d2d85293a9baa35126e924bee167e3694dcf39d258be69c1e540a9a0abe5` | 2026-11-17 07:17:53 | 5,867 字符 |
 | `raw/snapshots/solar/mysteel-210wafer-price-2026-11-17.md` | `171d04312c4e2d3472612815035154786bcd5a9aea0d9e870c513f2806995520` | 2026-11-17 07:13:43 | 8,171 字符 |
 | `raw/snapshots/solar/mysteel-wafer-price-history-2026-11-17.md` | `f4c5bad1dcd8b151c496768899f079044140c8ddc56f6dd7dcd972df8ba1b692` | 2026-11-17 07:17:54 | 5,976 字符 |

@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
+  "fetched_at": "2026-11-25 07:33:53",
+  "http_status": 200,
+  "sha256_raw": "b80eed8f0568c5284467546d2ff4a4ea7392b26d418abf972abf7c89720f95e7",
+  "raw_bytes": 63830,
+  "text_chars": 5913,
+  "truncated": false,
+  "domain": "security",
+  "slug": "cisa-icsa-26-328-03-danfoss-ak-sm",
+  "gzip_decoded": false
+}

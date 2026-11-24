@@ -1,0 +1,12 @@
+{
+  "source_url": "https://intel.neosec.eu/en/cve/CVE-2026-120387",
+  "fetched_at": "2026-11-25 07:12:49",
+  "http_status": 200,
+  "sha256_raw": "837137d3c31b6d111136f27290bc7ee12058e17f452e91f993b203a645beeaaa",
+  "raw_bytes": 318026,
+  "text_chars": 10301,
+  "truncated": false,
+  "domain": "security",
+  "slug": "neosec-circutor-powerstudio-jwt-none",
+  "gzip_decoded": false
+}

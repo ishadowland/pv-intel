@@ -1,0 +1,12 @@
+{
+  "source_url": "https://ctiwatch.com/vulnerabilities/CVE-2026-127057",
+  "fetched_at": "2026-11-25 07:34:41",
+  "http_status": 200,
+  "sha256_raw": "b6b00c3ed0525bbcafa88aac455203ffb940b3e50bf4a3d4667af2cbe68bfdd8",
+  "raw_bytes": 113227,
+  "text_chars": 3540,
+  "truncated": false,
+  "domain": "security",
+  "slug": "ctiwatch-danfoss-127057",
+  "gzip_decoded": false
+}

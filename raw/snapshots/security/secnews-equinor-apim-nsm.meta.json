@@ -1,0 +1,12 @@
+{
+  "source_url": "https://secnews.co.uk/2026/11/follow-up-equinor-azure-api-management-flaw-nsm-rotate-secrets",
+  "fetched_at": "2026-11-25 07:34:10",
+  "http_status": 200,
+  "sha256_raw": "c9c79974a7db3671126530e9ccb4c7d48d288040ecbdd2491867e72318130436",
+  "raw_bytes": 72466,
+  "text_chars": 8530,
+  "truncated": false,
+  "domain": "security",
+  "slug": "secnews-equinor-apim-nsm",
+  "gzip_decoded": false
+}

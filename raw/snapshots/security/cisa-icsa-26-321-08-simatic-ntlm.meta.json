@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08",
+  "fetched_at": "2026-11-25 07:12:19",
+  "http_status": 200,
+  "sha256_raw": "336c15533ae1c87ef87c7799a5bed5de0f2ac033f1f55edfed28c1bb51e0bc69",
+  "raw_bytes": 70862,
+  "text_chars": 11342,
+  "truncated": false,
+  "domain": "security",
+  "slug": "cisa-icsa-26-321-08-simatic-ntlm",
+  "gzip_decoded": false
+}
