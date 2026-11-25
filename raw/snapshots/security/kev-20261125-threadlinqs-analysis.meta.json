@@ -1,0 +1,12 @@
+{
+  "source_url": "https://intel.threadlinqs.com/threat/TL-2026-6887",
+  "fetched_at": "2026-11-26 07:10:57",
+  "http_status": 200,
+  "sha256_raw": "b546bfcfa81563615a1de0740c3e47bdf4c5e244d41dbfb2c99b5e16dd396295",
+  "raw_bytes": 158758,
+  "text_chars": 21677,
+  "truncated": false,
+  "domain": "security",
+  "slug": "kev-20261125-threadlinqs-analysis",
+  "gzip_decoded": false
+}

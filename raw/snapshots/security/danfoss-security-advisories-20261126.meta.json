@@ -1,0 +1,12 @@
+{
+  "source_url": "https://danfoss.com/en/service-and-support/coordinated-vulnerability-disclosure/danfoss-security-advisories",
+  "fetched_at": "2026-11-26 07:11:07",
+  "http_status": 200,
+  "sha256_raw": "f4414f2db2ace342aaf27448f5500074d630a094e670ed75f7c2e9f7fbcf8afa",
+  "raw_bytes": 111520,
+  "text_chars": 4517,
+  "truncated": false,
+  "domain": "security",
+  "slug": "danfoss-security-advisories-20261126",
+  "gzip_decoded": false
+}

@@ -7,6 +7,7 @@
 # 情报采集域
 
 - [☀️ 光伏产业](solar-industry/README.md) — 产业链供需 / 价格曲线 / 技术路线 / 装机与出口数据
+  - [主链价格与库存 11-25 日度快照（期货持仓三元组首次齐备 · 价跌仓增 · 硅料稳定双轨 · 时间戳陷阱样本）](solar-industry/chainPriceInventory-2026-11-25.md)
   - [主链价格与库存 11-24 日度快照（期货涨幅收敛 · 复投料连续第二日收于 40 元下方）](solar-industry/chainPriceInventory-2026-11-24.md)
   - [主链价格与库存 11-23 日度快照](solar-industry/chainPriceInventory-2026-11-23.md)
   - [组件价格结构性分化（低效端清库 / 高效端缺货）](solar-industry/moduleLowEffClearanceSplit-2026-11.md)
@@ -23,6 +24,7 @@
   - [光伏玻璃成本端上行（2026-11）](solar-industry/solarGlassCostUp-2026-11.md)
   - [新型电力系统的安全风险（2026-10-29 院刊综述）](solar-industry/newTypePowerSystemSecurity-2026.md)
 - [📜 政策发文](policy/README.md) — 部委与地方政策原文 / 解读 / 对产品的约束条款
+  - [国家能源局 1-10 月全国电力统计数据 + 前三季度光伏建设结构（2406 小时 · Q3 单季转正 · 户用仅降 2.8%）](policy/neaPowerStatistics2026JanOct-2026.md)
   - [GB 47834-2026 组件与逆变器能效限定值及能效等级](policy/gb47834PvEnergyEfficiencyStandard2026-2026.md)
   - [能源领域节能降碳行动计划（2026—2028年）45 号文](policy/neaEnergySavingDecarbonPlan2026-2028-2026.md)
   - [促进新能源消纳和调控的指导意见（2026-11-10）](policy/ndrcNewEnergyConsumptionGuidance-2026.md)
@@ -45,6 +47,9 @@
   - [湖南省 2026 年度机制电价竞价（聚合商写入竞价主体 · 保函 Σ 公式 · 边际 30%）](policy/hunanMechanismAuction2026-2026.md)
   - [韶关市分布式光伏「四可」接入改造通知（双档硬截止日 · 不予并网 · 全流程调控测试）](policy/shaoguanSikeRetrofit2026-2026.md)
 - [🛡️ 网络安全情报](security-intel/README.md) — CVE / WAF 攻击面 / 合规基线 / 内部安全动态
+  - [CISA KEV 2026-11-25 批次十条（Danfoss 三条进 KEV · 版本基线矩阵 · 取证分诊字段分级）](security-intel/cisaKev20261125Batch-2026-11.md)
+  - [CISA ICSA-26-328-01/02：恶意工程文件 → 工程工作站（库内首条「漏洞不在控制系统里」）](security-intel/icsa26328EngineeringFileAttackSurface-2026-11.md)
+  - [WAF 巡检 2026-11-25 20:37 轮（连续两日需拉黑归零 · 成因是我方侧无可见度）](security-intel/wafInspectionSeries20261125-2026-11.md)
   - [CISA KEV 2026-11-20 批次四条](security-intel/cisaKev20261120Batch-2026-11.md)
   - [CISA KEV 2026-11-23 / 11-24 批次三条（AI 智能体自主发现并利用 · SSRF 官方定性 · 移除而非修补）](security-intel/cisaKev20261123Batch-2026-11.md)
   - [NIST SP 800-82 Rev.4 初始公开草案（国家级 OT 安全基线 · 方法论被外部背书）](security-intel/nistSp80082r4OtSecurity-2026-11.md)

@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
+  "fetched_at": "2026-11-26 07:10:55",
+  "http_status": 200,
+  "sha256_raw": "1236d46326e0c3da088ae93e969232abf6eb75d113cd17755d371bd7f03e5f0d",
+  "raw_bytes": 69169,
+  "text_chars": 10075,
+  "truncated": false,
+  "domain": "security",
+  "slug": "icsa-2632802-schneider-rapsody",
+  "gzip_decoded": false
+}

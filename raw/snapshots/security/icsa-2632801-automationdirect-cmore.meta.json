@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+  "fetched_at": "2026-11-26 07:10:56",
+  "http_status": 200,
+  "sha256_raw": "a3ebb08bba3feb4f110e8bc295bffb6f81d2690571b9f3d5cc44286539861857",
+  "raw_bytes": 67929,
+  "text_chars": 9223,
+  "truncated": false,
+  "domain": "security",
+  "slug": "icsa-2632801-automationdirect-cmore",
+  "gzip_decoded": false
+}
