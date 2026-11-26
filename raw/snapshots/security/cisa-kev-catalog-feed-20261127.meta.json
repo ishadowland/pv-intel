@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json",
+  "fetched_at": "2026-11-27 07:17:19",
+  "http_status": 200,
+  "sha256_raw": "a76360009e4a65794a2b8073df5475f7a787a3bb83c3bfad2b0c3434a067631a",
+  "raw_bytes": 1898186,
+  "text_chars": 900018,
+  "truncated": true,
+  "domain": "security",
+  "slug": "cisa-kev-catalog-feed-20261127",
+  "gzip_decoded": false
+}

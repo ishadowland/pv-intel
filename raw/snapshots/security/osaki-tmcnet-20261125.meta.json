@@ -1,0 +1,12 @@
+{
+  "source_url": "https://insight.tmcnet.com/insight/ransomware-forces-osaki-electric-to-suspend-smart-meter-output-mwvrmzoi",
+  "fetched_at": "2026-11-27 07:15:24",
+  "http_status": 200,
+  "sha256_raw": "4a9476795dfced7a8c14978f8a77ddf841aa5089f1e377038c8d586c495f2e33",
+  "raw_bytes": 59491,
+  "text_chars": 6553,
+  "truncated": false,
+  "domain": "security",
+  "slug": "osaki-tmcnet-20261125",
+  "gzip_decoded": false
+}

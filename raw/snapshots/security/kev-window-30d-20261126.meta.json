@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.secquill.com/research/exploited-vulnerabilities",
+  "fetched_at": "2026-11-27 07:13:22",
+  "http_status": 200,
+  "sha256_raw": "2a87cab250c985ee8151b6a79762ab8e66e8ec7d016e9080bce012edc6c14b75",
+  "raw_bytes": 85428,
+  "text_chars": 30970,
+  "truncated": false,
+  "domain": "security",
+  "slug": "kev-window-30d-20261126",
+  "gzip_decoded": false
+}
