@@ -14,6 +14,7 @@
 | 原始 URL（主源 3 · SMM 全链月度轨迹） | https://news.metal.com/en/newscontent/TVFKTYN7FF6R3F4VUHUKTXPRVAD3DIBFMJXKEIY-tender-volume-contraction-resonates-with-weakening-ex-china-sentiment-module-high--and-low-efficiency-product-trends-diverge-smm-analysis （SMM 金属市场英文站，**2026-11-26 15:17:00**，含 9 月初→11 月底各技术路线价格起止值与 12 月展望区间，快照正文 13469 字符） |
 | 原始 URL（辅源 4 · 集邦硅片与电池片） | https://www.zhitongcaijing.com/content/detail/1529112.html （智通财经转集邦咨询《硅片、电池片库存小幅增加，高效组件报价有下滑迹象》，**2026-11-26 13:48:07**，快照正文 1996 字符） |
 | 原始 URL（辅源 5 · 同源交叉） | https://guba.eastmoney.com/news,cjpl,1802042195.html （东方财富转财联社，**2026-11-26 14:53:10**，含集邦正文未在智通版出现的硅片分尺寸主流价，快照正文 1226 字符） |
+| 原始 URL（辅源 5b · 同源交叉 · 第三份转载） | https://news.qq.com/rain/a/20261126A09JL100 （腾讯新闻转智通财经网，**2026-11-26 13:56**，与辅源 4 同源同文的第三份转载，用于确认集邦原文未被转载过程改动，快照正文 1174 字符） |
 | 原始 URL（辅源 6 · 期货结算价与持仓） | https://www.quheqihuo.com/quote/hq-1150.html （曲合网 PS2701 行情页，含今结 31915、成交量 35107、持仓 81385、**日增仓 −2796**，快照正文 7910 字符） |
 | 原始 URL（排除样本 · 提价传闻） | https://www.gmt8press.com/flash/detail/1128544 （GMT EIGHT 快讯《Photovoltaic module prices are rising...》，**页面标注 27/11/2026**，正文写"the downstream demand in December and the first quarter of 2026 is poor"，快照正文 2931 字符） |
 | 发布主体 | 北方有色网 / Mysteel 我的钢铁网 / 上海有色网 SMM / TrendForce 集邦咨询（经智通财经、财联社转载） |
@@ -43,7 +44,8 @@
 | 15 | 集邦 11-26 硅片分尺寸主流价 | 财联社转集邦：「**183 尺寸硅片受供需双弱影响，主流价格降至 0.90 元/片左右；210R 尺寸硅片主流价格降至 0.95 元/片左右；210N 尺寸…主流价格保持在 1.08 元/片左右**」 | 与集邦 11-25 价格表（183 = 0.90、210R = 0.95、210N = 1.08）逐项比对 | ✅ **已核（与 11-25 持平）** | ⭐⭐ **硅片三尺寸与 11-25 完全一致** → 硅片环节报价层已连续多日不动 |
 | 16 | 集邦 11-26 硅片库存 | 财联社转集邦：「当前**硅片库存维持在 28GW 左右**，较前期小幅增加」 | 直读 | ✅ **已核（28GW）** | ⭐⭐⭐ **库内首条「集邦口径硅片库存 28GW」** → 库内已记的硅片库存口径为 SMM 26.74/27.23GW 与硅业分会 34GW，**本条是第四个口径**，**28GW 落在 SMM 与硅业分会之间** → 口径数再 +1 |
 | 17 | 集邦 11-26 组件报价与方向 | 智通转集邦：「当前头部企业 TOPCon 组件报价 **0.70-0.72 元/W**，二线企业报价维持 **0.68 元/W** 左右…**部分大厂已开始小幅下调高功率组件报价，价格有松动迹象**」 | 与集邦 11-25 价格表（集中式 0.70、分布式 0.72、182mm 0.70、HJT 0.70）比对 | ⚠️ **均价持平但方向转弱** | ⭐⭐⭐ **库内首条「集邦明确说『高功率组件报价开始下调』」** → **与库内 11-24/11-25 记的「零变动」不是同一件事**：11-25 的零变动是**价格数字没动**，而本期是**机构公开说价格要往下走** → **「零变动」不能被读成「稳」** |
-| 18 | 需求侧定性 | 集邦：「随着 11 月海外政策窗口期逐步收尾，以及国内年末项目陆续进入收尾阶段，内外市场需求均呈现收缩态势…供需承压下，**价格存在小幅下行风险**」 | 直读 | ✅ **已核** | ⭐⭐ 与 SMM「tender volume contraction… weakening ex-China sentiment」方向一致 → **两独立机构同日给出同向的定性** |
+| 18 | 需求侧定性 | 集邦：「随着 11 月海外政策窗口期逐步收尾，以及国内年末项目陆续进入收尾阶段，内外市场需求均呈现收缩态势…供需承压下，**价格存在小幅下行风险**」 | 直读 | ✅ **已核** |
+| 18b | 集邦原文未被转载过程改动 | 辅源 4（智通 13:48）、辅源 5（东财/财联社 14:53）、辅源 5b（腾讯转智通 13:56）三份转载的核心表述逐条比对：硅片库存 28GW、183/210R/210N = 0.90/0.95/1.08、头部组件 0.70–0.72、二线 0.68、「部分大厂已开始小幅下调高功率组件报价」 | 三源逐字互校 | ✅ **已核（三源一致）** | ⭐⭐ **三份转载同源互校 → 集邦原文数据可采信**，且证明 #17 的「松动迹象」表述非转载方添加 | ⭐⭐ 与 SMM「tender volume contraction… weakening ex-China sentiment」方向一致 → **两独立机构同日给出同向的定性** |
 | 19 | 供给侧定性 | 集邦：「在政策层面反内卷预期增强、企业成本管控意识提升的背景下，行业**稳价意愿有所增强**」 | 直读 | ✅ **已核** | ⭐⭐ **需求下行 + 供给稳价意愿并存** → 与库内 11-25 记的「组件报价层价格发现已失效」合读：**报价数字不动但机构预期在动** |
 | 20 | 提价传闻样本 | GMT EIGHT：「some leading component companies in the country have started to raise prices… According to SMM statistics, the price increase range for Topcon components in this round is **0.02-0.04 yuan/watt**」 | 与同日 SMM 官方英文分析、北方有色现货、集邦三源对照 | ❌ **不采信** | ⭐⭐⭐ **库内第二份「时间戳陷阱」样本，且陷阱类型不同**：同页正文写「**the downstream demand in December and the first quarter of 2026 is poor**」——**若文章成文于 2026-11，「12 月」合理，但「2026 年第一季度」已是过去时**（2026 年 Q1 早在 4 月就结束）→ **正文时间锚与发布日期互相矛盾**，指向更早年份的旧稿 |
 | 21 | 提价传闻与事实方向相反 | 同上 | 与 #9/#17/#18 对照 | ❌ **与事实相反** | ⭐⭐⭐ **更关键的是：同一日 SMM 官方（#10/#11/#14）、北方有色现货（#9）、集邦（#17/#18）三源全部指向「持平或下行」，只有这一个英文站说「涨价」** → **即使不看时间锚，该样本的结论方向也与三个一手源相反** |
@@ -63,6 +65,7 @@
 | `raw/snapshots/solar/smm-module-divergence-20261126.md` | `6507901a70ef0e51d4f4c43eca7a9aa1fba4284d51689026157515a4afa29602` | 2026-11-27 07:11:55 | 13,469 字符 | 200 |
 | `raw/snapshots/solar/trendforce-wafer-cell-module-20261126.md` | `338b0d26e00a46ba0e82cc958c7931115bafedb6f90d868f658a6d53475e6a0c` | 2026-11-27 07:12:44 | 1,996 字符 | 200 |
 | `raw/snapshots/solar/trendforce-wafer-inventory-eastmoney-20261126.md` | `995e518e05cacf2576f2f37a2e8ddf123d391d22487701839a0706075bf2b9fc` | 2026-11-27 07:17:57 | 1,226 字符 | 200 |
+| `raw/snapshots/solar/trendforce-module-qq-20261126.md` | `2299d4d3cfc34230be4debafb8a10dcba94d85f4552820106bb94d0b0511ce7b` | 2026-11-27 07:17:57 | 1,174 字符 | 200 |
 | `raw/snapshots/solar/poly-futures-quhe-20261126.md` | `65f4a1678a427bce1d8c68050a5b202f5713d83ea88295b7534bd366200e6ca5` | 2026-11-27 07:17:57 | 7,910 字符 | 200 |
 | `raw/snapshots/solar/gmt8ModulePriceRiseProbe.md`（排除样本） | `69b0251666d326df78aa72e07b568ff6a8f7cc59fc90a4526d4d8b7092b04238` | 2026-11-27 07:10:40 | 2,931 字符 | 200 |
 
@@ -163,5 +166,6 @@
 - SMM 金属市场（2026-11-26 15:17）：https://news.metal.com/en/newscontent/TVFKTYN7FF6R3F4VUHUKTXPRVAD3DIBFMJXKEIY-tender-volume-contraction-resonates-with-weakening-ex-china-sentiment-module-high--and-low-efficiency-product-trends-diverge-smm-analysis
 - 智通财经转集邦咨询（2026-11-26 13:48）：https://www.zhitongcaijing.com/content/detail/1529112.html
 - 东方财富转财联社转集邦咨询（2026-11-26 14:53）：https://guba.eastmoney.com/news,cjpl,1802042195.html
+- 腾讯新闻转智通财经网转集邦咨询（2026-11-26 13:56）：https://news.qq.com/rain/a/20261126A09JL100
 - 曲合网 PS2701 行情页：https://www.quheqihuo.com/quote/hq-1150.html
 - GMT EIGHT 快讯（**不予采信样本**）：https://www.gmt8press.com/flash/detail/1128544
