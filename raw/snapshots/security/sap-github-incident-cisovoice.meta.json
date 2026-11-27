@@ -1,0 +1,12 @@
+{
+  "source_url": "https://cisovoice.com/breaches-vulnerabilities/sap-github-cybersecurity-incident",
+  "fetched_at": "2026-11-28 07:12:10",
+  "http_status": 200,
+  "sha256_raw": "8dc5f589f8984bfec6107a277d3be5a34f752b16888e3928d4dbd24f05eedc03",
+  "raw_bytes": 81791,
+  "text_chars": 3128,
+  "truncated": false,
+  "domain": "security",
+  "slug": "sap-github-incident-cisovoice",
+  "gzip_decoded": false
+}

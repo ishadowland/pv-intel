@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.pk-sharma.com/briefing/cisa-lists-two-geoserver-flaws-as-exploited-due-30-november-project-says-october-updates-fix-them",
+  "fetched_at": "2026-11-28 07:12:08",
+  "http_status": 200,
+  "sha256_raw": "4fb2e60a9eb474c6a3381549271d19de6131de986c395e588e28f00a13a4df05",
+  "raw_bytes": 267335,
+  "text_chars": 23211,
+  "truncated": false,
+  "domain": "security",
+  "slug": "geoserver-kev-20261127-pksharma",
+  "gzip_decoded": false
+}

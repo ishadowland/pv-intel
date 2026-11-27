@@ -7,6 +7,7 @@
 # 情报采集域
 
 - [☀️ 光伏产业](solar-industry/README.md) — 产业链供需 / 价格曲线 / 技术路线 / 装机与出口数据
+  - [主链价格与库存 11-27 日度快照（研报挂网日 ≠ 行情日 · 硅料三轨 · 广期所限仓 12-01 生效）](solar-industry/chainPriceInventory-2026-11-27.md)
   - [主链价格与库存 11-26 日度快照（期货首现价涨仓减 · 现货同日持平 · SMM 三个月组件轨迹 · 12 月展望区间）](solar-industry/chainPriceInventory-2026-11-26.md)
   - [主链价格与库存 11-25 日度快照（期货持仓三元组首次齐备 · 价跌仓增 · 硅料稳定双轨 · 时间戳陷阱样本）](solar-industry/chainPriceInventory-2026-11-25.md)
   - [主链价格与库存 11-24 日度快照（期货涨幅收敛 · 复投料连续第二日收于 40 元下方）](solar-industry/chainPriceInventory-2026-11-24.md)
@@ -25,6 +26,10 @@
   - [光伏玻璃成本端上行（2026-11）](solar-industry/solarGlassCostUp-2026-11.md)
   - [新型电力系统的安全风险（2026-10-29 院刊综述）](solar-industry/newTypePowerSystemSecurity-2026.md)
 - [📜 政策发文](policy/README.md) — 部委与地方政策原文 / 解读 / 对产品的约束条款
+  - [江苏 2027 年机制电价竞价（申报电量上限按类型逐类拆开 · 下限降至 0.20 · 竞价启动通知）](policy/jiangsuMechanismAuction2027-2026.md)
+  - [广东首批存量地面集中式光伏竞配入选清单（13 个 · 135.843 万千瓦 · 逐项目两列承诺比例）](policy/guangdongExistingGroundPvAllocation2026-2026.md)
+  - [「反内卷」三件可对账的东西（硅料自律底线 4.3 万元/吨 · 相互监督举报机制 · 交易所限仓）](policy/miitPvAntiInvolutionSymposium2026-2026.md)
+  - [工信部等六部门《关于促进光伏组件综合利用的指导意见》（2027 累计 25 万吨 · 补齐库内两期待办）](policy/miitPvModuleComprehensiveUtilization2026-2026.md)
   - [省间省内绿电联合交易首次开市（11-26 · 一次申报联合交易 · 首单 61.7 亿千瓦时 · 1615 主体结构）](policy/greenPowerJointTrading20261126-2026.md)
   - [工信部答复人大 1264 号建议（回收责任落到光伏发电企业 · 四项待出文件 · 报废评价标准）](policy/miitReply1264PvRecycling-2026.md)
   - [国家能源局 1-10 月全国电力统计数据 + 前三季度光伏建设结构（2406 小时 · Q3 单季转正 · 户用仅降 2.8%）](policy/neaPowerStatistics2026JanOct-2026.md)
@@ -50,6 +55,9 @@
   - [湖南省 2026 年度机制电价竞价（聚合商写入竞价主体 · 保函 Σ 公式 · 边际 30%）](policy/hunanMechanismAuction2026-2026.md)
   - [韶关市分布式光伏「四可」接入改造通知（双档硬截止日 · 不予并网 · 全流程调控测试）](policy/shaoguanSikeRetrofit2026-2026.md)
 - [🛡️ 网络安全情报](security-intel/README.md) — CVE / WAF 攻击面 / 合规基线 / 内部安全动态
+  - [CISA KEV 2026-11-27 批次三条（GeoServer ×2 + Drupal Core ×1 · 首次执行官方 feed diff）](security-intel/cisaKev20261127GeoServerDrupalBatch-2026-11.md)
+  - [SAP GitHub 令牌被窃致源码被复制与篡改（Project Granite · BSI 同日警告）](security-intel/sapGithubTokenSupplyChainIncident-2026-11.md)
+  - [WAF 巡检 2026-11-27 20:37 轮（「需拉黑归零」与「今日新增 4 个」并存）](security-intel/wafInspectionSeries20261127-2026-11.md)
   - [CISA KEV 目录基线 2026-11-26（官方 feed 一手可得 · 增速 +40.6% · 17% 为 2 年以上旧 CVE）](security-intel/cisaKevCatalogBaseline2026-11.md)
   - [Osaki Electric 勒索与智能电表供应链中断（供应商侧事件传导样本 · VPN 无 MFA 入口）](security-intel/osakiElectricSmartMeterRansomware-2026-11.md)
   - [WAF 巡检 2026-11-26 20:37 轮（报告首带 URL 与完整报文 · 同站点跨期复发）](security-intel/wafInspectionSeries20261126-2026-11.md)
@@ -86,6 +94,7 @@
 # 产出域
 
 - [📋 定期简报](briefings/README.md) — 日报 / 周报 / 月报，按周期归档
+  - [2026-11-28 日报（第 12 期：首次执行官方 feed diff / 研报日期错位 / 硅料三轨 / 「归零」作废）](briefings/2026-11-28-daily.md)
   - [2026-11-24 日报（GB 47834 强制国标真身 / 组件价格双向分化 / 竞态绕过认证首证）](briefings/2026-11-24-daily.md)
   - [2026-11-25 日报（第 9 期：挪威能源行业被窃密钥 / Danfoss 国家级归因 / 工业微电网 60%·20%）](briefings/2026-11-25-daily.md)
   - [2026-W47 周报（2026-11-16 ~ 11-22）](briefings/2026-W47-weekly.md)

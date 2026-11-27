@@ -1,0 +1,12 @@
+{
+  "source_url": "https://stock.finance.sina.com.cn/stock/go.php/vReport_Show/kind/11/rptid/849086072843/index.phtml",
+  "fetched_at": "2026-11-28 07:12:08",
+  "http_status": 200,
+  "sha256_raw": "1063011041d041505ee548bdd6094d29e7b1414d0273075eedfcf9f0c7b0f04a",
+  "raw_bytes": 25790,
+  "text_chars": 1507,
+  "truncated": false,
+  "domain": "solar",
+  "slug": "polysilicon-daily-jianxin-20261127",
+  "gzip_decoded": false
+}

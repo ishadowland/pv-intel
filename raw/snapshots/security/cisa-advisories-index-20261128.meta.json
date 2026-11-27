@@ -1,0 +1,12 @@
+{
+  "source_url": "https://www.cisa.gov/news-events/cybersecurity-advisories",
+  "fetched_at": "2026-11-28 07:12:25",
+  "http_status": 200,
+  "sha256_raw": "925fe67aca759aec023861e20b66004f727aa4098db357dce82eec51757acaf0",
+  "raw_bytes": 164955,
+  "text_chars": 2834,
+  "truncated": false,
+  "domain": "security",
+  "slug": "cisa-advisories-index-20261128",
+  "gzip_decoded": false
+}

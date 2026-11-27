@@ -1,0 +1,12 @@
+{
+  "source_url": "https://threatpodium.com/threat-intelligence-report-2026-11-27",
+  "fetched_at": "2026-11-28 07:12:28",
+  "http_status": 200,
+  "sha256_raw": "9ef1f236a853bd68693a828b5231138b0a744eceb707923508f4ddaeb7782d6f",
+  "raw_bytes": 99297,
+  "text_chars": 14197,
+  "truncated": false,
+  "domain": "security",
+  "slug": "threatpodium-kev-week-20261127",
+  "gzip_decoded": false
+}
